@@ -28,7 +28,11 @@
                     </button>
                     <button class="mode-btn in" data-mode="race" data-difficulty="in">
                         <span class="mode-btn-icon">IN</span>
-                        <span class="mode-btn-info">罚时 20s</span>
+                        <span class="mode-btn-info">罚时 15s</span>
+                    </button>
+                    <button class="mode-btn at" data-mode="race" data-difficulty="at">
+                        <span class="mode-btn-icon">AT</span>
+                        <span class="mode-btn-info">罚时 40s</span>
                     </button>
                 </div>
             </div>
@@ -60,9 +64,21 @@
                 <h3 class="mode-title">📖 练习模式</h3>
                 <p class="mode-desc">可以放弃题目，随时退出</p>
                 <div class="mode-buttons">
-                    <button class="mode-btn practice" data-mode="practice">
-                        <span class="mode-btn-icon">练习</span>
-                        <span class="mode-btn-info">自由练习</span>
+                    <button class="mode-btn ez" data-mode="practice" data-difficulty="ez">
+                        <span class="mode-btn-icon">EZ</span>
+                        <span class="mode-btn-info">简单题库</span>
+                    </button>
+                    <button class="mode-btn hd" data-mode="practice" data-difficulty="hd">
+                        <span class="mode-btn-icon">HD</span>
+                        <span class="mode-btn-info">中等题库</span>
+                    </button>
+                    <button class="mode-btn in" data-mode="practice" data-difficulty="in">
+                        <span class="mode-btn-icon">IN</span>
+                        <span class="mode-btn-info">困难题库</span>
+                    </button>
+                    <button class="mode-btn at" data-mode="practice" data-difficulty="at">
+                        <span class="mode-btn-icon">AT</span>
+                        <span class="mode-btn-info">地狱题库</span>
                     </button>
                 </div>
             </div>
@@ -114,6 +130,7 @@
                     <div class="answer-info">
                         <div class="answer-name" id="answer-name"></div>
                         <div class="answer-artist" id="answer-artist"></div>
+                        <div class="song-details" id="song-details"></div>
                     </div>
                     <div class="illustration-container">
                         <img id="illustration" src="" alt="曲绘" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'400\' viewBox=\'0 0 400 400\'%3E%3Crect fill=\'%231a1a2e\' width=\'400\' height=\'400\'/%3E%3Ctext fill=\'%23666\' font-family=\'sans-serif\' font-size=\'20\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dominant-baseline=\'middle\'%3E曲绘加载失败%3C/text%3E%3C/svg%3E'">

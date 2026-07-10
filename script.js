@@ -1,8 +1,9 @@
 let songs = [];
-let questions = [];
+let questionConfig = {};
 let currentQuestion = null;
 let currentSearch = '';
 let answeredSongs = new Set();
+let recentQuestions = [];
 
 let gameMode = null;
 let gameDifficulty = null;
@@ -16,7 +17,7 @@ let gamePenalty = 0;
 const GAME_CONFIG = {
     race: {
         totalQuestions: 10,
-        penalties: { ez: 3, hd: 5, in: 20 }
+        penalties: { ez: 3, hd: 5, in: 15, at: 40 }
     },
     endless: {
         lives: { ez: 10, hd: 5, in: 3, at: 1 }
@@ -41,6 +42,7 @@ const DOM = {
     illustration: document.getElementById('illustration'),
     otherAnswers: document.getElementById('other-answers'),
     otherAnswersList: document.getElementById('other-answers-list'),
+    songDetails: document.getElementById('song-details'),
     
     giveupSection: document.getElementById('giveup-section'),
     giveupAnswers: document.getElementById('giveup-answers'),
@@ -85,9 +87,8 @@ async function loadData() {
             fetch('data/songs.json'),
             fetch('data/questions.json')
         ]);
-        
         songs = await songsRes.json();
-        questions = await questionsRes.json();
+        questionConfig = await questionsRes.json();
     } catch (error) {
         console.error('Failed to load data:', error);
     }
@@ -130,6 +131,12 @@ function formatTime(seconds) {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}.${ms.toString().padStart(2, '0')}`;
 }
 
+function formatDuration(seconds) {
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
+
 function startTimer() {
     stopTimer();
     const startTime = Date.now();
@@ -153,6 +160,7 @@ function initGame(mode, difficulty) {
     gameState = { correct: 0, wrong: 0 };
     gameProgress = 0;
     gameTime = 0;
+    recentQuestions = [];
     
     if (mode === 'endless') {
         gameLives = GAME_CONFIG.endless.lives[difficulty];
@@ -185,8 +193,406 @@ function updateGameStats() {
     }
 }
 
+function generateQuestion() {
+    const difficulty = gameDifficulty;
+    const levelConfig = questionConfig.difficulty_levels?.[difficulty];
+    if (!levelConfig) return null;
+    
+    const questionTypes = levelConfig.question_types || [];
+    const totalWeight = questionTypes.reduce((sum, t) => sum + (t.weight || 1), 0);
+    
+    let question = null;
+    let attempts = 0;
+    const maxAttempts = 200;
+    
+    while (!question && attempts < maxAttempts) {
+        attempts++;
+        
+        let random = Math.random() * totalWeight;
+        let selectedType = questionTypes[0]?.type;
+        
+        for (const qt of questionTypes) {
+            random -= (qt.weight || 1);
+            if (random <= 0) {
+                selectedType = qt.type;
+                break;
+            }
+        }
+        
+        question = generateQuestionByType(selectedType);
+        
+        if (question) {
+            const qId = question.id;
+            const isDuplicate = recentQuestions.some(q => q.id === qId);
+            if (isDuplicate) {
+                question = null;
+            }
+        }
+    }
+    
+    if (!question) {
+        question = {
+            id: 'fallback',
+            name: '题目生成失败',
+            description: '请点击下一题',
+            type: 'fallback',
+            validate: () => true
+        };
+    }
+    
+    return question;
+}
+
+function generateQuestionByType(type) {
+    switch (type) {
+        case 'difficulty-easy-int':
+            return generateDifficultyQuestion('easy', 'int', [8]);
+        
+        case 'difficulty-easy-decimal':
+            return generateDifficultyQuestion('easy', 'decimal', [0.0, 9.9]);
+        
+        case 'difficulty-hard-int':
+            return generateDifficultyQuestion('hard', 'int', [13]);
+        
+        case 'difficulty-hard-decimal':
+            return generateDifficultyQuestion('hard', 'decimal', [0.0, 14.9]);
+        
+        case 'difficulty-insane-int':
+            return generateDifficultyQuestion('insane', 'int', [10, 11, 12, 13, 14, 15]);
+        
+        case 'difficulty-insane-decimal-low':
+            return generateDifficultyQuestion('insane', 'decimal', [16.0, 16.6]);
+        
+        case 'difficulty-insane-decimal':
+            return generateDifficultyQuestion('insane', 'decimal', [15.0, 16.6]);
+        
+        case 'difficulty-insane-decimal-wide':
+            return generateDifficultyQuestion('insane', 'decimal', [7.0, 16.6]);
+        
+        case 'difficulty-another-int':
+            return generateDifficultyQuestion('another', 'int', [15, 16, 17]);
+        
+        case 'difficulty-another-decimal-low':
+            return generateDifficultyQuestion('another', 'decimal', [17.0, 17.6]);
+        
+        case 'difficulty-another-decimal':
+            return generateDifficultyQuestion('another', 'decimal', [16.6, 17.6]);
+        
+        case 'difficulty-another-decimal-wide':
+            return generateDifficultyQuestion('another', 'decimal', [13.6, 17.6]);
+        
+        case 'firstLetter':
+            return generateFirstLetterQuestion();
+        
+        case 'updateYear':
+            return generateUpdateYearQuestion();
+        
+        case 'charter':
+            return generateCharterQuestion();
+        
+        case 'charter-at':
+            return generateAtCharterQuestion();
+        
+        case 'duration':
+            return generateDurationQuestion(0.30, 0.50);
+        
+        case 'duration-at':
+            return generateDurationQuestion(0.15, 0.25);
+        
+        case 'bpm':
+            return generateBpmQuestion(0.25, 0.40);
+        
+        default:
+            return null;
+    }
+}
+
+function generateDifficultyQuestion(diffType, mode, range) {
+    const diffMap = {
+        'easy': { label: 'EZ', key: 'easy' },
+        'hard': { label: 'HD', key: 'hard' },
+        'insane': { label: 'IN', key: 'insane' },
+        'another': { label: 'AT', key: 'another' }
+    };
+    
+    const info = diffMap[diffType];
+    if (!info) return null;
+    
+    let targetValue;
+    let min, max;
+    
+    if (mode === 'int') {
+        targetValue = range[Math.floor(Math.random() * range.length)];
+        min = targetValue;
+        max = targetValue + 1;
+    } else {
+        min = range[0];
+        max = range[1];
+        targetValue = parseFloat((Math.random() * (max - min) + min).toFixed(1));
+        min = targetValue;
+        max = Math.min(targetValue + 0.1, range[1]);
+    }
+    
+    const matchingSongs = songs.filter(s => {
+        const diff = s.difficulty?.[info.key];
+        return diff !== undefined && diff >= min && diff < max;
+    });
+    
+    if (matchingSongs.length === 0) return null;
+    
+    const questionId = `${info.label}-${targetValue}`;
+    
+    if (mode === 'int') {
+        return {
+            id: questionId,
+            name: `${info.label} 难度定数为 ${targetValue}`,
+            description: `找出${info.label}难度定数为${targetValue}的歌曲`,
+            type: 'difficulty',
+            diffType: diffType,
+            targetValue: targetValue,
+            validate: (song) => {
+                const diff = song.difficulty?.[info.key];
+                return diff !== undefined && diff >= min && diff < max;
+            }
+        };
+    } else {
+        return {
+            id: questionId,
+            name: `${info.label} 难度定数为 ${targetValue.toFixed(1)}`,
+            description: `找出${info.label}难度定数为${targetValue.toFixed(1)}的歌曲`,
+            type: 'difficulty',
+            diffType: diffType,
+            targetValue: targetValue,
+            validate: (song) => {
+                const diff = song.difficulty?.[info.key];
+                return diff !== undefined && diff >= min && diff < max;
+            }
+        };
+    }
+
+}
+
+function generateFirstLetterQuestion() {
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXY';
+    const letter = letters[Math.floor(Math.random() * letters.length)];
+    
+    const matchingSongs = songs.filter(s => {
+        const firstChar = s.name.charAt(0).toUpperCase();
+        return firstChar === letter;
+    });
+    
+    if (matchingSongs.length === 0) return null;
+    
+    return {
+        id: `firstLetter-${letter}`,
+        name: `首字母为 ${letter}`,
+        description: `找出首字母为${letter}的歌曲`,
+        type: 'firstLetter',
+        letter: letter,
+        validate: (song) => {
+            return song.name.charAt(0).toUpperCase() === letter;
+        }
+    };
+}
+
+function generateUpdateYearQuestion() {
+    const years = [...new Set(songs.map(s => {
+        const date = s.update_date;
+        if (date && date.includes('/')) {
+            return date.split('/')[0];
+        }
+        return null;
+    }).filter(y => y))];
+    
+    if (years.length === 0) return null;
+    
+    const year = years[Math.floor(Math.random() * years.length)];
+    
+    const matchingSongs = songs.filter(s => {
+        return s.update_date && s.update_date.startsWith(year);
+    });
+    
+    if (matchingSongs.length === 0) return null;
+    
+    return {
+        id: `updateYear-${year}`,
+        name: `${year}年更新的歌曲`,
+        description: `找出${year}年更新的歌曲`,
+        type: 'updateYear',
+        year: year,
+        validate: (song) => {
+            return song.update_date && song.update_date.startsWith(year);
+        }
+    };
+}
+
+function generateCharterQuestion() {
+    const minSongs = questionConfig.difficulty_levels?.[gameDifficulty]?.charter_min_songs || 1;
+    const charterCounts = {};
+    songs.forEach(s => {
+        if (s.charts?.IN?.charter) {
+            s.charts.IN.charter.forEach(c => {
+                charterCounts[c] = (charterCounts[c] || 0) + 1;
+            });
+        }
+    });
+    
+    const charters = Object.keys(charterCounts).filter(c => charterCounts[c] >= minSongs);
+    if (charters.length === 0) return null;
+    
+    const charter = charters[Math.floor(Math.random() * charters.length)];
+    
+    const matchingSongs = songs.filter(s => {
+        const charters = s.charts?.IN?.charter;
+        return charters && charters.includes(charter);
+    });
+    
+    if (matchingSongs.length === 0) return null;
+    
+    return {
+        id: `charter-${charter}`,
+        name: `IN谱师包含 ${charter}`,
+        description: `找出IN难度谱师包含${charter}的歌曲`,
+        type: 'charter',
+        charter: charter,
+        validate: (song) => {
+            const charters = song.charts?.IN?.charter;
+            return charters && charters.includes(charter);
+        }
+    };
+}
+
+function generateAtCharterQuestion() {
+    const minSongs = questionConfig.difficulty_levels?.[gameDifficulty]?.charter_min_songs || 1;
+    const charterCounts = {};
+    songs.forEach(s => {
+        if (s.charts?.AT?.charter) {
+            s.charts.AT.charter.forEach(c => {
+                charterCounts[c] = (charterCounts[c] || 0) + 1;
+            });
+        }
+    });
+    
+    const charters = Object.keys(charterCounts).filter(c => charterCounts[c] >= minSongs);
+    if (charters.length === 0) return null;
+    
+    const charter = charters[Math.floor(Math.random() * charters.length)];
+    
+    const matchingSongs = songs.filter(s => {
+        const charters = s.charts?.AT?.charter;
+        return charters && charters.includes(charter);
+    });
+    
+    if (matchingSongs.length === 0) return null;
+    
+    return {
+        id: `charter-at-${charter}`,
+        name: `AT谱师包含 ${charter}`,
+        description: `找出AT难度谱师包含${charter}的歌曲`,
+        type: 'charter-at',
+        charter: charter,
+        validate: (song) => {
+            const charters = song.charts?.AT?.charter;
+            return charters && charters.includes(charter);
+        }
+    };
+}
+
+function generateDurationQuestion(minRatio, maxRatio) {
+    const durations = songs.map(s => s.duration).filter(d => d && typeof d === 'number');
+    if (durations.length === 0) return null;
+    
+    const minDur = Math.min(...durations);
+    const maxDur = Math.max(...durations);
+    
+    const targetCount = Math.floor(durations.length * (Math.random() * (maxRatio - minRatio) + minRatio));
+    const count = Math.max(1, Math.min(targetCount, durations.length - 1));
+    
+    const sorted = [...durations].sort((a, b) => a - b);
+    const startIdx = Math.floor(Math.random() * (sorted.length - count));
+    const rangeMin = sorted[startIdx];
+    const rangeMax = sorted[startIdx + count - 1] + 1;
+    
+    const matchingSongs = songs.filter(s => {
+        const dur = s.duration;
+        return dur && typeof dur === 'number' && dur >= rangeMin && dur < rangeMax;
+    });
+    
+    if (matchingSongs.length === 0) return null;
+    
+    return {
+        id: `duration-${rangeMin}-${rangeMax}`,
+        name: `时长在 ${formatDuration(rangeMin)} ~ ${formatDuration(rangeMax)}`,
+        description: `找出时长在${formatDuration(rangeMin)}到${formatDuration(rangeMax)}之间的歌曲`,
+        type: 'duration',
+        rangeMin: rangeMin,
+        rangeMax: rangeMax,
+        validate: (song) => {
+            const dur = song.duration;
+            return dur && typeof dur === 'number' && dur >= rangeMin && dur < rangeMax;
+        }
+    };
+}
+
+function getBpmValue(bpm) {
+    if (typeof bpm === 'number') return bpm;
+    if (typeof bpm === 'string' && bpm.includes('~')) {
+        const parts = bpm.split('~');
+        return parseFloat(parts[0]);
+    }
+    return null;
+}
+
+function generateBpmQuestion(minRatio, maxRatio) {
+    const bpmValues = songs.map(s => getBpmValue(s.bpm)).filter(b => b !== null);
+    if (bpmValues.length === 0) return null;
+    
+    const minBpm = Math.floor(Math.min(...bpmValues));
+    const maxBpm = Math.ceil(Math.max(...bpmValues));
+    
+    const targetCount = Math.floor(bpmValues.length * (Math.random() * (maxRatio - minRatio) + minRatio));
+    const count = Math.max(1, Math.min(targetCount, bpmValues.length - 1));
+    
+    const sorted = [...bpmValues].sort((a, b) => a - b);
+    const startIdx = Math.floor(Math.random() * (sorted.length - count));
+    const rangeMin = Math.floor(sorted[startIdx]);
+    const rangeMax = Math.ceil(sorted[startIdx + count - 1]) + 1;
+    
+    const matchingSongs = songs.filter(s => {
+        const bpm = getBpmValue(s.bpm);
+        return bpm !== null && bpm >= rangeMin && bpm < rangeMax;
+    });
+    
+    if (matchingSongs.length === 0) return null;
+    
+    return {
+        id: `bpm-${rangeMin}-${rangeMax}`,
+        name: `BPM在 ${rangeMin} ~ ${rangeMax}`,
+        description: `找出BPM在${rangeMin}到${rangeMax}之间的歌曲`,
+        type: 'bpm',
+        rangeMin: rangeMin,
+        rangeMax: rangeMax,
+        validate: (song) => {
+            const bpm = getBpmValue(song.bpm);
+            return bpm !== null && bpm >= rangeMin && bpm < rangeMax;
+        }
+    };
+}
+
 function startNewRound() {
-    currentQuestion = questions[Math.floor(Math.random() * questions.length)];
+    currentQuestion = generateQuestion();
+    recentQuestions.push(currentQuestion);
+    
+    if (gameMode === 'endless') {
+        if (recentQuestions.length > 100) {
+            recentQuestions.shift();
+        }
+    } else if (gameMode === 'race') {
+        if (recentQuestions.length > GAME_CONFIG.race.totalQuestions) {
+            recentQuestions.shift();
+        }
+    }
+    
     currentSearch = '';
     answeredSongs.clear();
     
@@ -226,23 +632,34 @@ function renderResults(filteredSongs) {
     
     DOM.resultsList.innerHTML = (isCandidateMode ? '<div class="candidates-label">备选歌曲：</div>' : '') + filteredSongs.map(song => {
         const status = answeredSongs.has(song.id);
-        const isCorrect = status && song.attributes.includes(currentQuestion.id);
+        const isCorrect = status && currentQuestion.validate(song);
         const statusClass = isCorrect ? 'correct' : (status ? 'wrong' : '');
         
         let statusIcon = isCorrect ? '✓' : '';
-        if (status && !isCorrect && currentQuestion.id.startsWith('difficulty-')) {
+        if (status && !isCorrect && currentQuestion.type === 'difficulty') {
             const diff = song.difficulty || {};
-            const typeMatch = currentQuestion.id.match(/difficulty-(easy|hard|insane|another)/);
-            if (typeMatch) {
-                const type = typeMatch[1];
-                const displayMap = {
-                    'easy': `EZ Lv.${diff.easy?.toFixed(1)}`,
-                    'hard': `HD Lv.${diff.hard?.toFixed(1)}`,
-                    'insane': `IN Lv.${diff.insane?.toFixed(1)}`,
-                    'another': diff.another !== undefined ? `AT Lv.${diff.another.toFixed(1)}` : '✗'
-                };
-                statusIcon = displayMap[type] || '✗';
-            }
+            const diffMap = {
+                'easy': `EZ Lv.${diff.easy?.toFixed(1)}`,
+                'hard': `HD Lv.${diff.hard?.toFixed(1)}`,
+                'insane': `IN Lv.${diff.insane?.toFixed(1)}`,
+                'another': diff.another !== undefined ? `AT Lv.${diff.another.toFixed(1)}` : '✗'
+            };
+            statusIcon = diffMap[currentQuestion.diffType] || '✗';
+        } else if (status && !isCorrect && currentQuestion.type === 'updateYear') {
+            const year = song.update_date ? song.update_date.split('/')[0] : '未知';
+            statusIcon = `${year}年`;
+        } else if (status && !isCorrect && currentQuestion.type === 'duration') {
+            const dur = song.duration;
+            statusIcon = dur ? formatDuration(dur) : '未知';
+        } else if (status && !isCorrect && currentQuestion.type === 'bpm') {
+            const bpm = song.bpm;
+            statusIcon = bpm ? bpm : '未知';
+        } else if (status && !isCorrect && currentQuestion.type === 'charter') {
+            const charters = song.charts?.IN?.charter;
+            statusIcon = charters && charters.length > 0 ? charters.join(' & ') : '✗';
+        } else if (status && !isCorrect && currentQuestion.type === 'charter-at') {
+            const charters = song.charts?.AT?.charter;
+            statusIcon = charters && charters.length > 0 ? charters.join(' & ') : '✗';
         } else if (status && !isCorrect) {
             statusIcon = '✗';
         }
@@ -258,7 +675,7 @@ function renderResults(filteredSongs) {
         `;
     }).join('');
     
-    document.querySelectorAll('.song-item').forEach(item => {
+    DOM.resultsList.querySelectorAll('.song-item').forEach(item => {
         item.addEventListener('click', () => handleSongClick(item));
     });
 }
@@ -271,7 +688,7 @@ function handleSongClick(item) {
     
     answeredSongs.add(song.id);
     
-    if (song.attributes.includes(currentQuestion.id)) {
+    if (currentQuestion.validate(song)) {
         handleCorrectAnswer(song);
     } else {
         handleWrongAnswer();
@@ -293,21 +710,41 @@ function handleCorrectAnswer(song) {
     DOM.illustration.src = `assets/illustrations/${song.id}.webp`;
     
     const otherCorrectAnswers = songs.filter(s => 
-        s.attributes.includes(currentQuestion.id) && s.id !== song.id
+        s.id !== song.id && currentQuestion.validate(s)
     );
     
+    const defaultShow = questionConfig.display?.default_show_answers || 5;
+    
     if (otherCorrectAnswers.length > 0) {
-        const displayAnswers = otherCorrectAnswers.slice(0, 4);
-        DOM.otherAnswersList.innerHTML = displayAnswers.map(s => `
-            <div class="other-answer-item">
-                <span class="other-answer-name">${escapeHtml(s.name)}</span>
-                <span class="other-answer-artist">${escapeHtml(s.artist)}</span>
-            </div>
-        `).join('');
+        renderAnswerList('other-answers-list', otherCorrectAnswers, defaultShow, true);
         DOM.otherAnswers.style.display = 'block';
     } else {
         DOM.otherAnswers.style.display = 'none';
     }
+    
+    const difficulty = song.difficulty || {};
+    const charts = song.charts || {};
+    let songDetails = [];
+    
+    if (difficulty.easy !== undefined) songDetails.push(`EZ Lv.${difficulty.easy.toFixed(1)}`);
+    if (difficulty.hard !== undefined) songDetails.push(`HD Lv.${difficulty.hard.toFixed(1)}`);
+    if (difficulty.insane !== undefined) songDetails.push(`IN Lv.${difficulty.insane.toFixed(1)}`);
+    if (difficulty.another !== undefined) songDetails.push(`AT Lv.${difficulty.another.toFixed(1)}`);
+    
+    if (song.update_date) songDetails.push(`更新: ${song.update_date}`);
+    if (song.version) songDetails.push(`版本: ${song.version}`);
+    if (song.bpm) songDetails.push(`BPM: ${song.bpm}`);
+    if (song.duration) songDetails.push(`时长: ${formatDuration(song.duration)}`);
+    
+    const charters = [];
+    ['EZ', 'HD', 'IN', 'AT'].forEach(diff => {
+        if (charts[diff]?.charter) {
+            charters.push(`${diff}: ${charts[diff].charter.join(' & ')}`);
+        }
+    });
+    if (charters.length > 0) songDetails.push(`谱师: ${charters.join(', ')}`);
+    
+    DOM.songDetails.innerHTML = songDetails.map(d => `<span class="detail-tag">${escapeHtml(d)}</span>`).join('');
     
     DOM.answerSection.style.display = 'block';
     DOM.giveupBtn.style.display = 'none';
@@ -346,24 +783,64 @@ function handleWrongAnswer() {
     updateGameStats();
 }
 
+function renderAnswerList(containerId, answerList, defaultShow, isOtherAnswers) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    
+    let isExpanded = false;
+    
+    function render() {
+        const displayAnswers = isExpanded ? answerList : answerList.slice(0, defaultShow);
+        let html;
+        
+        if (isOtherAnswers) {
+            html = displayAnswers.map(s => `
+                <div class="other-answer-item">
+                    <span class="other-answer-name">${escapeHtml(s.name)}</span>
+                    <span class="other-answer-artist">${escapeHtml(s.artist)}</span>
+                </div>
+            `).join('');
+        } else {
+            html = displayAnswers.map(s => `
+                <div class="giveup-answer">
+                    <span class="giveup-answer-name">${escapeHtml(s.name)}</span>
+                    <span class="giveup-answer-artist">${escapeHtml(s.artist)}</span>
+                </div>
+            `).join('');
+        }
+        
+        if (answerList.length > defaultShow) {
+            html += `
+                <div class="toggle-more-btn" id="toggle-more-${containerId}">
+                    ${isExpanded ? '收起' : `展开（共${answerList.length}首）`}
+                </div>
+            `;
+        }
+        
+        container.innerHTML = html;
+        
+        const toggleBtn = document.getElementById(`toggle-more-${containerId}`);
+        if (toggleBtn) {
+            toggleBtn.addEventListener('click', () => {
+                isExpanded = !isExpanded;
+                render();
+            });
+        }
+    }
+    
+    render();
+}
+
 function handleGiveUp() {
     if (gameMode === 'race') {
         showSettlement('中途退出');
         return;
     }
     
-    const correctAnswers = songs.filter(song => 
-        song.attributes.includes(currentQuestion.id)
-    );
+    const correctAnswers = songs.filter(song => currentQuestion.validate(song));
+    const defaultShow = questionConfig.display?.default_show_answers || 5;
     
-    const displayAnswers = correctAnswers.slice(0, 5);
-    
-    DOM.giveupAnswers.innerHTML = displayAnswers.map(song => `
-        <div class="giveup-answer">
-            <span class="giveup-answer-name">${escapeHtml(song.name)}</span>
-            <span class="giveup-answer-artist">${escapeHtml(song.artist)}</span>
-        </div>
-    `).join('');
+    renderAnswerList('giveup-answers', correctAnswers, defaultShow, false);
     
     DOM.giveupSection.style.display = 'block';
     DOM.giveupBtn.style.display = 'none';
@@ -423,7 +900,7 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-document.querySelectorAll('.mode-btn').forEach(btn => {
+DOM.homeContainer.querySelectorAll('.mode-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         const mode = btn.dataset.mode;
         const difficulty = btn.dataset.difficulty || 'ez';
