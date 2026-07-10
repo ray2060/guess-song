@@ -1,0 +1,4731 @@
+[
+    {
+        "id": "000AinSophAur.Yumeji",
+        "name": "000 -Ain Soph Aur-",
+        "aliases": [
+            "无限光",
+            "000AinSophAur",
+            "AinSophAur"
+        ],
+        "artist": "Yumeji",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 8.4,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "70MinutesFighters.かたぎり",
+        "name": "70 Minutes Fighters",
+        "aliases": [
+            "70分钟打架者",
+            "70min",
+            "70mf"
+        ],
+        "artist": "かたぎり",
+        "attributes": [
+            "difficulty-insane-16.5"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 12.5,
+            "insane": 16.5
+        }
+    },
+    {
+        "id": "996.李化禹",
+        "name": "996",
+        "aliases": [],
+        "artist": "李化禹",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.4,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "ABYSSMOTION192333.ariiolTSAR奏Sou",
+        "name": "ABYSS MOTION 192.333",
+        "aliases": [
+            "阿比斯移动",
+            "192.333"
+        ],
+        "artist": "ariiol & 奏Sou",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.8,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "ATHAZA.LeaF",
+        "name": "ATHAZA",
+        "aliases": [
+            "大蓝花",
+            "不存在之物",
+            "笼中花"
+        ],
+        "artist": "LeaF",
+        "attributes": [
+            "firstLetter-A",
+            "difficulty-easy-8",
+            "difficulty-another-16.6"
+        ],
+        "difficulty": {
+            "easy": 8.6,
+            "hard": 12.9,
+            "insane": 15.7,
+            "another": 16.6
+        }
+    },
+    {
+        "id": "AbsoluTedisoRdeR.AcuteDisarray",
+        "name": "AbsoluTe disoRdeR",
+        "aliases": [
+            "ATRR",
+            "绝对混乱"
+        ],
+        "artist": "Acute Disarray",
+        "attributes": [
+            "firstLetter-A",
+            "difficulty-insane-16.3",
+            "difficulty-another-17.2"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.4,
+            "insane": 16.3,
+            "another": 17.2
+        }
+    },
+    {
+        "id": "Adastraperaspera.RabbitHouse",
+        "name": "Ad astra per aspera",
+        "aliases": [
+            "aapa",
+            "大太阳",
+            "太阳",
+            "寻此苦旅直抵群星",
+            "寻此苦旅终达星辰"
+        ],
+        "artist": "Rabbit House",
+        "attributes": [
+            "firstLetter-A",
+            "difficulty-insane-16.3"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.1,
+            "insane": 16.3
+        }
+    },
+    {
+        "id": "AfterDawn.S9ryne",
+        "name": "After Dawn",
+        "aliases": [
+            "黎明之后"
+        ],
+        "artist": "S9ryne",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 10.4,
+            "insane": 15.3
+        }
+    },
+    {
+        "id": "AfterZABANIYAMUGEdit.Daily天利",
+        "name": "After ZABANIYA (MUG Edit)",
+        "aliases": [
+            "AZ"
+        ],
+        "artist": "Daily天利",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.2,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "Ajourneytothemoonlight.Yesod",
+        "name": "A journey to the moonlight",
+        "aliases": [
+            "月光之旅"
+        ],
+        "artist": "Yesod",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.7,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "Alb.Avans",
+        "name": "Alb",
+        "aliases": [
+            "阿鲁巴"
+        ],
+        "artist": "Avans",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 8.9,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "Aleph0.LeaF",
+        "name": "Aleph-0",
+        "aliases": [
+            "A0",
+            "数学课堂"
+        ],
+        "artist": "LeaF",
+        "attributes": [
+            "firstLetter-A",
+            "difficulty-insane-16.0"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 12.2,
+            "insane": 16.0
+        }
+    },
+    {
+        "id": "Aliceinaxxxxxxxx.Nagiha",
+        "name": "Alice in a xxxxxxxx",
+        "aliases": [],
+        "artist": "Nagiha",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.5,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "AnotherMe.NeutralMoon",
+        "name": "Another Me",
+        "aliases": [],
+        "artist": "Neutral Moon",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.3,
+            "insane": 13.6
+        }
+    },
+    {
+        "id": "AnotherRound.JustinDai",
+        "name": "Another Round",
+        "aliases": [
+            "另一轮"
+        ],
+        "artist": "Justin Dai",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 9.6,
+            "insane": 13.3
+        }
+    },
+    {
+        "id": "Antithese.Blacklolita",
+        "name": "Antithese",
+        "aliases": [
+            "反命题"
+        ],
+        "artist": "Blacklolita",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.8,
+            "insane": 15.4,
+            "another": 16.4
+        }
+    },
+    {
+        "id": "Aphasia.闫东炜",
+        "name": "Aphasia",
+        "aliases": [
+            "失语症"
+        ],
+        "artist": "闫东炜",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.8,
+            "insane": 13.3
+        }
+    },
+    {
+        "id": "AphroditesChildshortver.RUQOA",
+        "name": "Aphrodite's Child (short ver.)",
+        "aliases": [],
+        "artist": "RUQOA",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 8.1,
+            "insane": 13.3
+        }
+    },
+    {
+        "id": "Apocalypse.アリスシャッハと魔法の楽団",
+        "name": "Apocalypse",
+        "aliases": [],
+        "artist": "アリスシャッハと魔法の楽団",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.6,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "Apocalyptic.ZClaxxSumaiLight",
+        "name": "Apocalyptic",
+        "aliases": [],
+        "artist": "Z ClaxX & SumaiLight",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 10.4,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "Archidoxen.Se_IRA",
+        "name": "Archidoxen",
+        "aliases": [],
+        "artist": "Se_IRA",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 10.0,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "Ark.kanoryo",
+        "name": "Ark",
+        "aliases": [],
+        "artist": "kanoryo",
+        "attributes": [
+            "firstLetter-A",
+            "difficulty-another-16.5"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.5,
+            "insane": 15.0,
+            "another": 16.5
+        }
+    },
+    {
+        "id": "Arkhei.SeraAmagi",
+        "name": "-Arkhei-",
+        "aliases": [
+            "Arkhei"
+        ],
+        "artist": "Sera Amagi",
+        "attributes": [],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 8.8,
+            "insane": 12.6
+        }
+    },
+    {
+        "id": "ArtificialExistence.JunKuroda",
+        "name": "Artificial Existence",
+        "aliases": [
+            "人工生命"
+        ],
+        "artist": "Jun Kuroda",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.3,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "AvataarReincarnationofKalpa.ScarletteakaCrYmson",
+        "name": "Avataar ~Reincarnation of Kalpa~",
+        "aliases": [],
+        "artist": "Scarlette a.k.a CrYmson",
+        "attributes": [
+            "firstLetter-A",
+            "difficulty-another-16.6"
+        ],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 8.2,
+            "insane": 13.4,
+            "another": 16.6
+        }
+    },
+    {
+        "id": "Aventyr.GrandThawRigelTheatre",
+        "name": "Äventyr",
+        "aliases": [
+            "Aventyr"
+        ],
+        "artist": "Grand Thaw / Rigël Theatre",
+        "attributes": [],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.9,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "BANGINGSTRIKE.DewPleiades",
+        "name": "BANGING STRIKE",
+        "aliases": [
+            "梆硬冲击",
+            "BS"
+        ],
+        "artist": "Dew Pleiades",
+        "attributes": [
+            "firstLetter-B",
+            "difficulty-another-16.8"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.2,
+            "insane": 15.9,
+            "another": 16.8
+        }
+    },
+    {
+        "id": "BRAINHACKER.SOMON",
+        "name": "BRAIN HACKER",
+        "aliases": [],
+        "artist": "SOMON",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.3,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "BelieveLightfeat果丸哒呦.ScalerMestie果丸哒呦",
+        "name": "Believe Light (feat. 果丸哒呦)",
+        "aliases": [],
+        "artist": "Scaler & Mestie & 果丸哒呦",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 8.9,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "BetterGraphicAnimation.ルゼ",
+        "name": "Better Graphic Animation",
+        "aliases": [
+            "BGA"
+        ],
+        "artist": "ルゼ",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.1,
+            "insane": 15.3
+        }
+    },
+    {
+        "id": "Bitterblossom.imvi",
+        "name": "Bitterblossom",
+        "aliases": [],
+        "artist": "imvi",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 9.5,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "Bloom.targ麻团qwq",
+        "name": "Bloom",
+        "aliases": [],
+        "artist": "targ & 麻团qwq",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 11.2,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "BonusTime.MegaloPaleWhite",
+        "name": "Bonus Time",
+        "aliases": [
+            "奖励时间"
+        ],
+        "artist": "Megalo_PaleWhite",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.5,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "Bougainvillea.Jade",
+        "name": "Bougainvillea",
+        "aliases": [],
+        "artist": "Jade",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.3,
+            "insane": 13.2
+        }
+    },
+    {
+        "id": "BoundedQuietude.FiniteLimitvsSiLiS",
+        "name": "Bounded Quietude",
+        "aliases": [
+            "BQ"
+        ],
+        "artist": "Finite Limit vs SiLiS",
+        "attributes": [
+            "firstLetter-B",
+            "difficulty-insane-16.2"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 7.5,
+            "insane": 16.2
+        }
+    },
+    {
+        "id": "BraveNotes.TurquoiseDRIVENota",
+        "name": "Brave Notes",
+        "aliases": [],
+        "artist": "Turquoise(DRIVE.+Nota)",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.4,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "BreakOver.Kforest",
+        "name": "Break Over",
+        "aliases": [
+            "BO"
+        ],
+        "artist": "K-forest",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 11.5,
+            "insane": 14.1,
+            "another": 14.9
+        }
+    },
+    {
+        "id": "BreakThroughTheBarrier.lixound",
+        "name": "Break Through The Barrier",
+        "aliases": [],
+        "artist": "lixound",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.5,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "BrokenSky.JungoMAX3feat刘佳宜Snow幻影刃shadow",
+        "name": "Broken Sky",
+        "aliases": [],
+        "artist": "Jungo & MAX 3 feat. 刘佳宜Snow & 幻影刃shadow",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.6,
+            "insane": 13.2
+        }
+    },
+    {
+        "id": "Burn.NceS",
+        "name": "Burn",
+        "aliases": [
+            "烤全鸭",
+            "烤全押"
+        ],
+        "artist": "NceS",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 11.2,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "CROSSSOUL.HyuNfeatSyepias",
+        "name": "CROSS†SOUL",
+        "aliases": [
+            "穿魂",
+            "CROSS SOUL"
+        ],
+        "artist": "HyuN feat. Syepias",
+        "attributes": [
+            "firstLetter-C",
+            "difficulty-insane-16.4"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 12.6,
+            "insane": 16.4
+        }
+    },
+    {
+        "id": "Cereris.SunsetRayNceS",
+        "name": "Cereris",
+        "aliases": [],
+        "artist": "SunsetRay/NceS",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.9,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "CervelleConnexion.SCTL",
+        "name": "Cervelle Connexion",
+        "aliases": [],
+        "artist": "SCTL",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 11.3,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "Chronologika.Hundotte",
+        "name": "Chronologika",
+        "aliases": [
+            "时间逻辑",
+            "时序"
+        ],
+        "artist": "Hundotte",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.8,
+            "insane": 13.9
+        }
+    },
+    {
+        "id": "Chronomia.Lime",
+        "name": "Chronomia",
+        "aliases": [
+            "天文钟"
+        ],
+        "artist": "Lime",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 11.1,
+            "insane": 15.4
+        }
+    },
+    {
+        "id": "ChronosCollapseLaCampanella.SunsetRay",
+        "name": "Chronos Collapse - La Campanella",
+        "aliases": [
+            "李斯特钟",
+            "李斯特的钟",
+            "李斯特砸钟",
+            "砸钟",
+            "钟",
+            "时崩"
+        ],
+        "artist": "SunsetRay",
+        "attributes": [
+            "firstLetter-C",
+            "difficulty-insane-16.3"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 12.5,
+            "insane": 16.3
+        }
+    },
+    {
+        "id": "Chronostasis.黒皇帝",
+        "name": "Chronostasis",
+        "aliases": [
+            "时停",
+            "黑皇帝"
+        ],
+        "artist": "黒皇帝",
+        "attributes": [
+            "firstLetter-C",
+            "difficulty-insane-16.0"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.7,
+            "insane": 16.0
+        }
+    },
+    {
+        "id": "Cipher20.TetrajectoryfeatCtymax",
+        "name": "Cipher : /2&//<|0",
+        "aliases": [
+            "Cipher20"
+        ],
+        "artist": "Tetrajectory feat. Ctymax",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.3,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "ClassMemories.AntistarfeatCtymax",
+        "name": "Class Memories",
+        "aliases": [
+            "交互课堂"
+        ],
+        "artist": "Antistar feat. Ctymax",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.8,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "Cleyera.Riya",
+        "name": "Cleyera",
+        "aliases": [],
+        "artist": "Riya",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 11.0,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "ClockParadox.WyvernP",
+        "name": "Clock Paradox",
+        "aliases": [
+            "时悖"
+        ],
+        "artist": "WyvernP",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 6.0,
+            "insane": 12.5
+        }
+    },
+    {
+        "id": "ColorfulDays.P4koofeatつゆり花鈴",
+        "name": "Colorful Days♪",
+        "aliases": [
+            "Colorful Days"
+        ],
+        "artist": "P4koo feat. つゆり花鈴",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 7.0,
+            "insane": 12.6
+        }
+    },
+    {
+        "id": "CometFeat符白牙.CNHKSS",
+        "name": "Comet",
+        "aliases": [],
+        "artist": "CNHKSS feat. 符白牙",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 10.5,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "ComputeItWithSomeDevilishAlcoholicSteampunkEngines.かめりあ",
+        "name": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+        "aliases": [
+            "蒸汽朋克"
+        ],
+        "artist": "かめりあ",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.6,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "Concvssion.Halv",
+        "name": "Concvssion",
+        "aliases": [
+            "脑震荡"
+        ],
+        "artist": "Halv",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.3,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "CraveWave.LandRoot",
+        "name": "Crave Wave",
+        "aliases": [],
+        "artist": "LandRoot",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 8.0,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "Credits.Frums",
+        "name": "Credits",
+        "aliases": [
+            "信用"
+        ],
+        "artist": "Frums",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.4,
+            "insane": 13.6,
+            "another": 15.7
+        }
+    },
+    {
+        "id": "Cristalisia.onoken",
+        "name": "Cristalisia",
+        "aliases": [],
+        "artist": "onoken",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 10.4,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "CrushBETA.shadow_bling",
+        "name": "Crush BETA",
+        "aliases": [],
+        "artist": "shadow_bling",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 10.5,
+            "insane": 15.1
+        }
+    },
+    {
+        "id": "Cthugha.USAO",
+        "name": "Cthugha",
+        "aliases": [
+            "火球"
+        ],
+        "artist": "USAO",
+        "attributes": [
+            "firstLetter-C",
+            "difficulty-insane-16.0"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.4,
+            "insane": 16.0,
+            "another": 16.1
+        }
+    },
+    {
+        "id": "Cuvism.Fl00tvsHalv",
+        "name": "Cuvism³",
+        "aliases": [
+            "三次方"
+        ],
+        "artist": "Fl00t vs Halv",
+        "attributes": [
+            "firstLetter-C",
+            "difficulty-another-16.7"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 12.2,
+            "insane": 13.9,
+            "another": 16.7
+        }
+    },
+    {
+        "id": "DESTRUCTION321.Normal1zervsBrokenNerdz",
+        "name": "DESTRUCTION 3,2,1",
+        "aliases": [
+            "毁灭321",
+            "321"
+        ],
+        "artist": "Normal1zer vs. Broken Nerdz",
+        "attributes": [
+            "firstLetter-D",
+            "difficulty-easy-8",
+            "difficulty-hard-13",
+            "difficulty-insane-16.3",
+            "difficulty-another-17.3"
+        ],
+        "difficulty": {
+            "easy": 8.5,
+            "hard": 13.1,
+            "insane": 16.3,
+            "another": 17.3
+        }
+    },
+    {
+        "id": "DancewithSilence.かめりあ",
+        "name": "Dance with Silence",
+        "aliases": [
+            "静舞"
+        ],
+        "artist": "かめりあ",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 10.9,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "Dash.小红Akane李祥辉",
+        "name": "Dash",
+        "aliases": [],
+        "artist": "小红Akane，李祥晖",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 5.5,
+            "insane": 9.7
+        }
+    },
+    {
+        "id": "DataErr0r.Cosmograph",
+        "name": "DataErr0r",
+        "aliases": [
+            "数据错误",
+            "DataError"
+        ],
+        "artist": "Cosmograph",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.8,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "DeadSoul.SoundSouler",
+        "name": "Dead Soul",
+        "aliases": [],
+        "artist": "Sound Souler",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 12.3,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "Demiurge.Rabpit",
+        "name": "Demiurge",
+        "aliases": [],
+        "artist": "Rabpit",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 7.5,
+            "insane": 11.8
+        }
+    },
+    {
+        "id": "Demonkin.ForgedReigns",
+        "name": "Demonkin",
+        "aliases": [],
+        "artist": "Forged Reigns",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.2,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "DerRichter.Ωμεγα",
+        "name": "Der Richter",
+        "aliases": [
+            "法官"
+        ],
+        "artist": "Ωμεγα",
+        "attributes": [
+            "firstLetter-D",
+            "difficulty-another-16.9"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.4,
+            "insane": 15.6,
+            "another": 16.9
+        }
+    },
+    {
+        "id": "DerSchneid.Ωμεγα",
+        "name": "Der Schneid",
+        "aliases": [
+            "法官2",
+            "勇气",
+            "尚竞之勇",
+            "你好大的胆子啊"
+        ],
+        "artist": "Ωμεγα",
+        "attributes": [
+            "firstLetter-D",
+            "difficulty-insane-16.1",
+            "difficulty-another-17.5"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 11.9,
+            "insane": 16.1,
+            "another": 17.5
+        }
+    },
+    {
+        "id": "DevIAtiOnshortver.polysha",
+        "name": "DevIAtiOn (short ver.)",
+        "aliases": [],
+        "artist": "polysha",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 11.1,
+            "insane": 15.7
+        }
+    },
+    {
+        "id": "Devotion.Connexio",
+        "name": "Devotion",
+        "aliases": [],
+        "artist": "Connexio",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.6,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "DiamondDust.MasahiroGodspeedAoki",
+        "name": "Diamond Dust",
+        "aliases": [
+            "钻石尘"
+        ],
+        "artist": "Masahiro “Godspeed” Aoki",
+        "attributes": [
+            "firstLetter-D",
+            "difficulty-another-16.7"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.8,
+            "insane": 15.3,
+            "another": 16.7
+        }
+    },
+    {
+        "id": "DiamondEyes.SYNTHETIC",
+        "name": "Diamond Eyes",
+        "aliases": [
+            "钻石眼"
+        ],
+        "artist": "SYNTHETIC",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 6.5,
+            "insane": 13.4
+        }
+    },
+    {
+        "id": "Disorder.HyuNfeatYURI",
+        "name": "Disorder",
+        "aliases": [],
+        "artist": "HyuN feat. YURI",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.3,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "DistortedFate.Sakuzyo",
+        "name": "Distorted Fate",
+        "aliases": [
+            "拧巴的命",
+            "DF",
+            "扭曲命运",
+            "骨折鸠"
+        ],
+        "artist": "Sakuzyo",
+        "attributes": [
+            "firstLetter-D",
+            "difficulty-easy-8",
+            "difficulty-hard-13",
+            "difficulty-insane-16.3",
+            "difficulty-another-17.4"
+        ],
+        "difficulty": {
+            "easy": 8.1,
+            "hard": 13.5,
+            "insane": 16.3,
+            "another": 17.4
+        }
+    },
+    {
+        "id": "Dlyrotz.Likey",
+        "name": "Dlyrotz",
+        "aliases": [
+            "德利",
+            "Dly"
+        ],
+        "artist": "Likey",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.1,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "DontNeverAround.HAMA",
+        "name": "Don't Never Around",
+        "aliases": [
+            "DNA"
+        ],
+        "artist": "HAMA",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 11.3,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "Doppelganger.LeaF",
+        "name": "Doppelganger",
+        "aliases": [],
+        "artist": "LeaF",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.0,
+            "insane": 15.1
+        }
+    },
+    {
+        "id": "Dreamland.z1onkyrrin",
+        "name": "Dreamland",
+        "aliases": [],
+        "artist": "z1on & kyrrin",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 10.3,
+            "insane": 13.6
+        }
+    },
+    {
+        "id": "DropIt.Asuka",
+        "name": "Drop It",
+        "aliases": [],
+        "artist": "Asuka",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.2,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "ENERGYSYNERGYMATRIX.Tanchiky",
+        "name": "ENERGY SYNERGY MATRIX",
+        "aliases": [
+            "ESM"
+        ],
+        "artist": "Tanchiky",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.5,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "ERABYECONNEC10N.かめりあ",
+        "name": "+ERABY+E CONNEC+10N",
+        "aliases": [
+            "TERABYTE CONNECTION",
+            "+++"
+        ],
+        "artist": "かめりあ",
+        "attributes": [
+            "difficulty-insane-16.3",
+            "difficulty-another-17.3"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.6,
+            "insane": 16.3,
+            "another": 17.3
+        }
+    },
+    {
+        "id": "ElCondorPasaPhigrosEdit.PlasticFruits",
+        "name": "El Condor Pasa (Phigros Edit)",
+        "aliases": [],
+        "artist": "Plastic Fruits",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.5,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "Electron.ElousFZ",
+        "name": "Electron",
+        "aliases": [],
+        "artist": "ElousΛ.-FZ",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.4,
+            "insane": 13.2
+        }
+    },
+    {
+        "id": "Eltaw.Fl00t",
+        "name": "Eltaw",
+        "aliases": [],
+        "artist": "Fl00t",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 10.6,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "Elúltimobaile.Θ",
+        "name": "El último baile",
+        "aliases": [
+            "El ultimo baile"
+        ],
+        "artist": "Θ",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.5,
+            "insane": 14.1
+        }
+    },
+    {
+        "id": "EndMe.ZxNXasDelaina",
+        "name": "End Me",
+        "aliases": [],
+        "artist": "ZxNX as Delaina",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 7.5,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "EnginexStartmelodymix.CrossingSound",
+        "name": "Engine x Start!! (melody mix)",
+        "aliases": [
+            "引擎启动"
+        ],
+        "artist": "CrossingSound",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 8.3,
+            "insane": 13.0
+        }
+    },
+    {
+        "id": "EradicationCatastrophe.NceS",
+        "name": "Eradication Catastrophe",
+        "aliases": [],
+        "artist": "NceS",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 7.5,
+            "insane": 12.7
+        }
+    },
+    {
+        "id": "EternalSnow.AbyssIdols",
+        "name": "Eternal Snow",
+        "aliases": [],
+        "artist": "Abyss Idols",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.6,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "FULiAUTOBUSTER.MYUKKE",
+        "name": "FULi AUTO BUSTER",
+        "aliases": [
+            "浮力自动爆",
+            "福利自动爆"
+        ],
+        "artist": "MYUKKE.",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.7,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "FULiAUTOSHOOTER.MYUKKE",
+        "name": "FULi AUTO SHOOTER",
+        "aliases": [
+            "福利自动射",
+            "福利凹凸射"
+        ],
+        "artist": "MYUKKE.",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 9.0,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "Feast远东之宴.茶鸣拾贰律",
+        "name": "Feast远东之宴",
+        "aliases": [],
+        "artist": "茶鸣拾贰律",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.1,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "FinalStep.Lime",
+        "name": "Final Step!",
+        "aliases": [],
+        "artist": "Lime",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.0,
+            "insane": 14.1
+        }
+    },
+    {
+        "id": "FindMe.Kforest",
+        "name": "Find_Me",
+        "aliases": [
+            "Find Me"
+        ],
+        "artist": "K-forest",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.5,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "FixationsTowardtheStars.Foodbot",
+        "name": "Fixations Toward the Stars",
+        "aliases": [],
+        "artist": "Foodbot",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 10.9,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "FlutterEcho.Cansol",
+        "name": "Flutter Echo",
+        "aliases": [],
+        "artist": "Cansol",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.8,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "FracturedAngel.DJRaisei",
+        "name": "Fractured Angel",
+        "aliases": [
+            "折翼天使"
+        ],
+        "artist": "DJ Raisei",
+        "attributes": [
+            "firstLetter-F",
+            "difficulty-insane-16.3"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 10.9,
+            "insane": 16.3
+        }
+    },
+    {
+        "id": "FreakyUndulationsNobleKnightsofTune.JehezukielKURORAK",
+        "name": "Freaky Undulations ~Noble Knights of Tune~",
+        "aliases": [],
+        "artist": "Jehezukiel + KURORAK",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 10.9,
+            "insane": 15.3
+        }
+    },
+    {
+        "id": "FrozenHeart.A39沙包P",
+        "name": "Frozen Heart",
+        "aliases": [],
+        "artist": "A-39 / 沙包P",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.6,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "FutureMind.RayNauticaRekuMochizuki",
+        "name": "Future Mind",
+        "aliases": [],
+        "artist": "Ray Nautica & Reku Mochizuki",
+        "attributes": [
+            "firstLetter-F"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 11.0,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "GOODBOUNCE.EBIMAYO",
+        "name": "GOODBOUNCE",
+        "aliases": [
+            "良弹"
+        ],
+        "artist": "EBIMAYO",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 11.9,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "GOODFORTUNE.EBIMAYO",
+        "name": "GOODFORTUNE",
+        "aliases": [
+            "良幸"
+        ],
+        "artist": "EBIMAYO",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 8.7,
+            "insane": 15.7
+        }
+    },
+    {
+        "id": "GOODRAGE.EBIMAYO",
+        "name": "GOODRAGE",
+        "aliases": [
+            "良怒"
+        ],
+        "artist": "EBIMAYO",
+        "attributes": [
+            "firstLetter-G",
+            "difficulty-insane-16.0"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 8.5,
+            "insane": 16.0
+        }
+    },
+    {
+        "id": "GOODTEK.EBIMAYO",
+        "name": "GOODTEK",
+        "aliases": [
+            "良锤"
+        ],
+        "artist": "EBIMAYO",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.0,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "GOODWORLD.EBIMAYO",
+        "name": "GOODWORLD",
+        "aliases": [
+            "良界"
+        ],
+        "artist": "EBIMAYO",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 11.4,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "GVNGlitterVomitusandNeon.SaltySaltUnfold33",
+        "name": "G.V.N. (Glitter,Vomitus and Neon)",
+        "aliases": [
+            "GVN"
+        ],
+        "artist": "Salty Salt & Unfold33",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.7,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "GetBack.CAP3",
+        "name": "Get Back",
+        "aliases": [],
+        "artist": "CAP3",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 10.7,
+            "insane": 14.1
+        }
+    },
+    {
+        "id": "GetReady.iF",
+        "name": "Get Ready!!",
+        "aliases": [],
+        "artist": "iF",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.7,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "Glaciaxion.SunsetRay",
+        "name": "Glaciaxion",
+        "aliases": [
+            "冰川效应"
+        ],
+        "artist": "SunsetRay",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 1.0,
+            "hard": 6.5,
+            "insane": 12.6
+        }
+    },
+    {
+        "id": "Grimheart.Puru",
+        "name": "Grimheart",
+        "aliases": [],
+        "artist": "Puru",
+        "attributes": [
+            "firstLetter-G"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.9,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "GungnirFracture.Kryexe",
+        "name": "Gungnir Fracture",
+        "aliases": [
+            "GF",
+            "骨折冈",
+            "冈裂",
+            "冈格尼尔断裂"
+        ],
+        "artist": "Kry.exe",
+        "attributes": [
+            "firstLetter-G",
+            "difficulty-insane-16.6"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.5,
+            "insane": 16.6
+        }
+    },
+    {
+        "id": "HAZARD.Limpid",
+        "name": "HAZARD",
+        "aliases": [],
+        "artist": "Limpid",
+        "attributes": [
+            "firstLetter-H"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 11.0,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "HardcoreKwaya.EnFr",
+        "name": "Hardcore Kwaya",
+        "aliases": [],
+        "artist": "EnFr",
+        "attributes": [
+            "firstLetter-H"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 8.4,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "Helios.NOABotaNya",
+        "name": "Helios",
+        "aliases": [],
+        "artist": "NOA(Cortrix) & BotaNya",
+        "attributes": [
+            "firstLetter-H"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.0,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "HorizonBlue.NothingButRequiemfeatAikapinChiyoko",
+        "name": "Horizon Blue",
+        "aliases": [],
+        "artist": "Nothing But Requiem feat. Aikapin & Chiyoko",
+        "attributes": [
+            "firstLetter-H"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.6,
+            "insane": 15.7
+        }
+    },
+    {
+        "id": "HumaN.SOTUI",
+        "name": "HumaN",
+        "aliases": [],
+        "artist": "SOTUI",
+        "attributes": [
+            "firstLetter-H"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.0,
+            "insane": 12.9
+        }
+    },
+    {
+        "id": "Hydra.JamesLandinoXAkiraComplex",
+        "name": "Hydra",
+        "aliases": [
+            "九头蛇",
+            "嗨爪"
+        ],
+        "artist": "James Landino X Akira Complex",
+        "attributes": [
+            "firstLetter-H",
+            "difficulty-another-17.1"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.6,
+            "insane": 15.4,
+            "another": 17.1
+        }
+    },
+    {
+        "id": "IMustSayNo.TangJuan",
+        "name": "I Must Say No",
+        "aliases": [],
+        "artist": "TangJuan",
+        "attributes": [
+            "firstLetter-I"
+        ],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 9.2,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "INFiNiTEENERZYOverdoze.RekuMochizuki",
+        "name": "INFiNiTE ENERZY -Overdoze-",
+        "aliases": [
+            "IEO",
+            "Infinite Enerzy Overdoze",
+            "Infinite Energy Overdoze"
+        ],
+        "artist": "Reku Mochizuki",
+        "attributes": [
+            "firstLetter-I",
+            "difficulty-another-16.8"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.3,
+            "insane": 14.8,
+            "another": 16.8
+        }
+    },
+    {
+        "id": "Igallta.SeURa",
+        "name": "Igallta",
+        "aliases": [
+            "Iga",
+            "姐姐砍我",
+            "姐姐"
+        ],
+        "artist": "Se-U-Ra",
+        "attributes": [
+            "firstLetter-I",
+            "difficulty-insane-16.1",
+            "difficulty-another-17.4"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 12.2,
+            "insane": 16.1,
+            "another": 17.4
+        }
+    },
+    {
+        "id": "Incyde.YbeLL",
+        "name": "Incyde",
+        "aliases": [],
+        "artist": "YbeLL",
+        "attributes": [
+            "firstLetter-I",
+            "difficulty-insane-16.2"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 12.1,
+            "insane": 16.2
+        }
+    },
+    {
+        "id": "IndelibleScar.Noah",
+        "name": "Indelible Scar",
+        "aliases": [],
+        "artist": "Noah",
+        "attributes": [
+            "firstLetter-I",
+            "difficulty-another-16.5"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 11.5,
+            "insane": 15.3,
+            "another": 16.5
+        }
+    },
+    {
+        "id": "InfinityHeaven.HyuN",
+        "name": "Infinity Heaven",
+        "aliases": [
+            "无限天堂"
+        ],
+        "artist": "HyuN",
+        "attributes": [
+            "firstLetter-I"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.4,
+            "insane": 13.9
+        }
+    },
+    {
+        "id": "Initialize.iF",
+        "name": "Initialize",
+        "aliases": [],
+        "artist": "iF",
+        "attributes": [
+            "firstLetter-I"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 7.0,
+            "insane": 11.6
+        }
+    },
+    {
+        "id": "InvertedWorld.ARForest",
+        "name": "Inverted World",
+        "aliases": [],
+        "artist": "ARForest",
+        "attributes": [
+            "firstLetter-I"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.2,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "JourneywithYou.Iris",
+        "name": "Journey with You",
+        "aliases": [],
+        "artist": "Iris",
+        "attributes": [
+            "firstLetter-J"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.0,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "JunXionBetweenLifeAndDeathVIPMix.1N6Fs",
+        "name": "JunXion Between Life And Death(VIP Mix)",
+        "aliases": [
+            "俊雄半死不活"
+        ],
+        "artist": "1N6Fs",
+        "attributes": [
+            "firstLetter-J"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.7,
+            "insane": 13.4
+        }
+    },
+    {
+        "id": "KIZUNAResolution.TAG",
+        "name": "KIZUNA Resolution",
+        "aliases": [
+            "羁绊决议"
+        ],
+        "artist": "TAG",
+        "attributes": [
+            "firstLetter-K",
+            "difficulty-hard-13",
+            "difficulty-insane-16.4"
+        ],
+        "difficulty": {
+            "easy": 8.0,
+            "hard": 13.4,
+            "insane": 16.4
+        }
+    },
+    {
+        "id": "KMoeVIP.ZxNX",
+        "name": "K.Moe (VIP)",
+        "aliases": [],
+        "artist": "ZxNX",
+        "attributes": [
+            "firstLetter-K"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.4,
+            "insane": 15.9
+        }
+    },
+    {
+        "id": "Kerberos.Zris",
+        "name": "Kerberos",
+        "aliases": [],
+        "artist": "Zris",
+        "attributes": [
+            "firstLetter-K"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 12.4,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "Khalid.Dolphin",
+        "name": "Khalid",
+        "aliases": [],
+        "artist": "Dolphin",
+        "attributes": [
+            "firstLetter-K"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.2,
+            "insane": 13.1
+        }
+    },
+    {
+        "id": "KhronostasisKatharsis.Halv",
+        "name": "Khronostasis Katharsis",
+        "aliases": [
+            "紫时停"
+        ],
+        "artist": "Halv",
+        "attributes": [
+            "firstLetter-K"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.8,
+            "insane": 14.0
+        }
+    },
+    {
+        "id": "KirakiraNoelStory.RekuMochizuki",
+        "name": "Kirakira Noel Story!!",
+        "aliases": [],
+        "artist": "Reku Mochizuki",
+        "attributes": [
+            "firstLetter-K"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 10.2,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "Komplexe.雄之助featSennzai",
+        "name": "Komplexe",
+        "aliases": [],
+        "artist": "雄之助 feat. Sennzai",
+        "attributes": [
+            "firstLetter-K"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.6,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "LabyrinthinKowloonWalledWorld.かめりあ",
+        "name": "Labyrinth in Kowloon: Walled World",
+        "aliases": [],
+        "artist": "かめりあ",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.4,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "LeaveAllBehind.rider",
+        "name": "Leave All Behind",
+        "aliases": [],
+        "artist": "rider",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.9,
+            "insane": 12.7
+        }
+    },
+    {
+        "id": "Letempsperdu.Daison",
+        "name": "Le temps perdu",
+        "aliases": [],
+        "artist": "Daison",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.0,
+            "insane": 12.5
+        }
+    },
+    {
+        "id": "Locomotive.K",
+        "name": "Locomotive",
+        "aliases": [],
+        "artist": "♠K",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.7,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "Luminescence.米虾Fomiki初云CLoudie",
+        "name": "Luminescence",
+        "aliases": [
+            "冷光"
+        ],
+        "artist": "米虾Fomiki & 初云CLoudie",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.0,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "Luminescent.Daison",
+        "name": "Luminescent",
+        "aliases": [],
+        "artist": "Daison",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.7,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "LuminousEntitiesLostHeart.NormalMfeatUsagiDenki",
+        "name": "Luminous Entities Lost Heart",
+        "aliases": [],
+        "artist": "NormalM feat. Usagi Denki",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.7,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "Lyrith迷宮リリス.ユメミド",
+        "name": "Lyrith -迷宮リリス-",
+        "aliases": [
+            "迷宫莉莉丝"
+        ],
+        "artist": "ユメミド",
+        "attributes": [
+            "firstLetter-L",
+            "difficulty-insane-16.1",
+            "difficulty-another-16.5"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 11.1,
+            "insane": 16.1,
+            "another": 16.5
+        }
+    },
+    {
+        "id": "MARENOL.LeaF",
+        "name": "MARENOL",
+        "aliases": [],
+        "artist": "LeaF",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 10.3,
+            "insane": 13.9
+        }
+    },
+    {
+        "id": "MOBILYS.Dachs",
+        "name": "MOBILYS",
+        "aliases": [],
+        "artist": "Dachs",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.3,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "MagentaPotion.EmoCo",
+        "name": "Magenta Potion",
+        "aliases": [
+            "品红药水",
+            "品红色药水"
+        ],
+        "artist": "EmoCo.",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.3,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "ManifoldHypothesis.cybermisofeattigerlily",
+        "name": "Manifold Hypothesis",
+        "aliases": [],
+        "artist": "cybermiso feat. tigerlily",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.1,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "MiracleForestVIPMix.Rinthlive",
+        "name": "Miracle Forest (VIP Mix)",
+        "aliases": [
+            "油条森林",
+            "奇迹森林"
+        ],
+        "artist": "Rinth_live",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 7.5,
+            "insane": 13.1
+        }
+    },
+    {
+        "id": "NOONEYESMAN.MYUKKE",
+        "name": "NO ONE YES MAN",
+        "aliases": [
+            "NOYM"
+        ],
+        "artist": "MYUKKE.",
+        "attributes": [
+            "firstLetter-N"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 10.9,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "NOx.Juggernaut",
+        "name": "NO x",
+        "aliases": [
+            "氮氧化物"
+        ],
+        "artist": "Juggernaut.",
+        "attributes": [
+            "firstLetter-N",
+            "difficulty-insane-16.1"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.3,
+            "insane": 16.1
+        }
+    },
+    {
+        "id": "NYA.FLuoRiTe姜米條",
+        "name": "NYA!!! (Phigros ver.)",
+        "aliases": [
+            "喵"
+        ],
+        "artist": "FLuoRiTe/姜米條",
+        "attributes": [
+            "firstLetter-N"
+        ],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 8.6,
+            "insane": 13.1
+        }
+    },
+    {
+        "id": "NextTime.SaMZIng",
+        "name": "Next Time",
+        "aliases": [],
+        "artist": "SaMZIng",
+        "attributes": [
+            "firstLetter-N"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 8.7,
+            "insane": 12.4
+        }
+    },
+    {
+        "id": "Nhelv.Silentroom",
+        "name": "Nhelv",
+        "aliases": [],
+        "artist": "Silentroom",
+        "attributes": [
+            "firstLetter-N"
+        ],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 12.0,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "NickofTime.P4koo",
+        "name": "Nick of Time",
+        "aliases": [],
+        "artist": "P4koo",
+        "attributes": [
+            "firstLetter-N"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 9.3,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "NightTheater.わかどり",
+        "name": "NightTheater",
+        "aliases": [
+            "夜剧院"
+        ],
+        "artist": "わかどり",
+        "attributes": [
+            "firstLetter-N"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 10.6,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "NonMelodicRagezMUGEdit.Normal1zer",
+        "name": "Non-Melodic Ragez (MUG Edit)",
+        "aliases": [
+            "NMR",
+            "震楼机"
+        ],
+        "artist": "Normal1zer",
+        "attributes": [
+            "firstLetter-N",
+            "difficulty-insane-16.1"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.6,
+            "insane": 16.1
+        }
+    },
+    {
+        "id": "NowIsTheTimeDoIt.RoyMikelate",
+        "name": "Now Is The Time, Do It",
+        "aliases": [],
+        "artist": "Roy Mikelate",
+        "attributes": [
+            "firstLetter-N"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 11.2,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "OnAndOn.ETIAfeatJenga",
+        "name": "On And On!!",
+        "aliases": [],
+        "artist": "ETIA. feat. Jenga",
+        "attributes": [
+            "firstLetter-O"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.6,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "Originally.SNKSMizku",
+        "name": "Originally",
+        "aliases": [],
+        "artist": "SNKS & Mizku",
+        "attributes": [
+            "firstLetter-O"
+        ],
+        "difficulty": {
+            "easy": 1.0,
+            "hard": 9.3,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "Orthodox.tokiwa",
+        "name": "Orthodox",
+        "aliases": [],
+        "artist": "tokiwa",
+        "attributes": [
+            "firstLetter-O"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 8.5,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "PANICPARADISE.DJSHIONY",
+        "name": "PANIC PARADISE",
+        "aliases": [
+            "恐慌天堂"
+        ],
+        "artist": "DJ SHION.Y",
+        "attributes": [
+            "firstLetter-P",
+            "difficulty-another-16.5"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.5,
+            "insane": 15.4,
+            "another": 16.5
+        }
+    },
+    {
+        "id": "PRAGMATISMRESURRECTION.Laur",
+        "name": "PRAGMATISM -RESURRECTION-",
+        "aliases": [
+            "白复生",
+            "PRAGMATISM RESURRECTION"
+        ],
+        "artist": "Laur",
+        "attributes": [
+            "firstLetter-P",
+            "difficulty-insane-16.0",
+            "difficulty-another-16.6"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 12.9,
+            "insane": 16.0,
+            "another": 16.6
+        }
+    },
+    {
+        "id": "PRAW.Bluewind",
+        "name": "[PRAW]",
+        "aliases": [
+            "PRAW",
+            "Wrap"
+        ],
+        "artist": "Bluewind",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.6,
+            "insane": 15.1
+        }
+    },
+    {
+        "id": "Palescreen.WyvernPfeatMadol",
+        "name": "Palescreen",
+        "aliases": [],
+        "artist": "WyvernP feat. Madol",
+        "attributes": [
+            "firstLetter-P"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 12.3,
+            "insane": 15.9
+        }
+    },
+    {
+        "id": "ParallelRetrogressionGameVer.Tetrajectory",
+        "name": "Parallel Retrogression(Game Ver.)",
+        "aliases": [],
+        "artist": "Tetrajectory",
+        "attributes": [
+            "firstLetter-P"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 10.9,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "PixelRebelz.Normal1zer",
+        "name": "Pixel Rebelz",
+        "aliases": [],
+        "artist": "Normal1zer",
+        "attributes": [
+            "firstLetter-P"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.7,
+            "insane": 15.3
+        }
+    },
+    {
+        "id": "PoisonANDORAffection.LeaF",
+        "name": "Poison AND÷OR Affection",
+        "aliases": [
+            "Poison AND OR Affection"
+        ],
+        "artist": "LeaF",
+        "attributes": [
+            "firstLetter-P"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.9,
+            "insane": 15.7
+        }
+    },
+    {
+        "id": "Pontdessouvenirs.VeetaCrushvsitsufeatitsu",
+        "name": "Pont des souvenirs",
+        "aliases": [],
+        "artist": "VeetaCrush vs. [itsu(feat.itsu)]",
+        "attributes": [
+            "firstLetter-P"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.7,
+            "insane": 15.3
+        }
+    },
+    {
+        "id": "Poseidon.1112vsStar",
+        "name": "Ποσειδών",
+        "aliases": [
+            "Poseidon",
+            "波塞冬"
+        ],
+        "artist": "1112 vs. Star＊",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 8.8,
+            "insane": 12.8,
+            "another": 16.2
+        }
+    },
+    {
+        "id": "Protoflicker.Silentroom",
+        "name": "Protoflicker",
+        "aliases": [],
+        "artist": "Silentroom",
+        "attributes": [
+            "firstLetter-P"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.7,
+            "insane": 15.4
+        }
+    },
+    {
+        "id": "QZKagoRequiem.tpazolite",
+        "name": "QZKago Requiem",
+        "aliases": [
+            "茄子卡狗"
+        ],
+        "artist": "t+pazolite",
+        "attributes": [
+            "firstLetter-Q",
+            "difficulty-hard-13",
+            "difficulty-insane-16.3",
+            "difficulty-another-17.4"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 13.3,
+            "insane": 16.3,
+            "another": 17.4
+        }
+    },
+    {
+        "id": "QuantumHyperspace.D_AAN",
+        "name": "Quantum Hyperspace",
+        "aliases": [],
+        "artist": "D_AAN",
+        "attributes": [
+            "firstLetter-Q"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.2,
+            "insane": 15.0
+        }
+    },
+    {
+        "id": "RESSiSTANCE.ぐるたみん",
+        "name": "RESSiSTANCE",
+        "aliases": [],
+        "artist": "ぐるたみん",
+        "attributes": [
+            "firstLetter-R",
+            "difficulty-insane-16.1"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.2,
+            "insane": 16.1
+        }
+    },
+    {
+        "id": "RIPPER.Friedwav",
+        "name": "RIPPER",
+        "aliases": [],
+        "artist": "Friedwav",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.7,
+            "insane": 15.4
+        }
+    },
+    {
+        "id": "Radiance.Nhato",
+        "name": "Radiance",
+        "aliases": [],
+        "artist": "Nhato",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 11.9,
+            "insane": 14.0,
+            "another": 15.6
+        }
+    },
+    {
+        "id": "RainyHeart.BelieverInYou阿卡姆巫师",
+        "name": "Rainy Heart",
+        "aliases": [],
+        "artist": "BelieverInYou(阿卡姆巫师)",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.4,
+            "insane": 12.9
+        }
+    },
+    {
+        "id": "RainySeason.AbyssIdols",
+        "name": "Rainy Season",
+        "aliases": [],
+        "artist": "Abyss Idols",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.7,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "Ramification.rareguyReina",
+        "name": "Ramification",
+        "aliases": [],
+        "artist": "rareguy & Reina",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.4,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "Random.SobremSilentroom",
+        "name": "Random",
+        "aliases": [
+            "随机"
+        ],
+        "artist": "Sobrem × Silentroom",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 12.2,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "ReEndofaDream.umavsモリモリあつし",
+        "name": "Re：End of a Dream",
+        "aliases": [
+            "终梦"
+        ],
+        "artist": "uma vs. モリモリあつし",
+        "attributes": [
+            "firstLetter-R",
+            "difficulty-another-16.9"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 13.0,
+            "insane": 15.9,
+            "another": 16.9
+        }
+    },
+    {
+        "id": "Re_NascencePsystyleVer.Rinth_live",
+        "name": "Re_Nascence (Psystyle Ver.)",
+        "aliases": [],
+        "artist": "Rinth_live",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.7,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "Realms.HinkikAHimitsu",
+        "name": "Realms",
+        "aliases": [],
+        "artist": "Hinkik & A Himitsu",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 10.2,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "Rebirth.ああああ",
+        "name": "Re：birth",
+        "aliases": [
+            "Rebirth",
+            "重生"
+        ],
+        "artist": "ああああ",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 12.0,
+            "insane": 15.4
+        }
+    },
+    {
+        "id": "Reimei.影虎",
+        "name": "Reimei",
+        "aliases": [],
+        "artist": "影虎。",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.7,
+            "insane": 15.1
+        }
+    },
+    {
+        "id": "Resolver.Gomadare",
+        "name": "Resolver",
+        "aliases": [],
+        "artist": "Gomadare",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.4,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "Retribution.nmyKryexe",
+        "name": "Retribution",
+        "aliases": [
+            "报应"
+        ],
+        "artist": "nm-y & Kry.exe",
+        "attributes": [
+            "firstLetter-R",
+            "difficulty-insane-16.2"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.6,
+            "insane": 16.2
+        }
+    },
+    {
+        "id": "RetributionCycleofRedemption.ArdolfvsDaily天利",
+        "name": "Retribution ~ Cycle of Redemption ~",
+        "aliases": [
+            "Retribution Cycle of Redemption",
+            "报应",
+            "报应SP"
+        ],
+        "artist": "Ardolf vs. Daily天利",
+        "attributes": [
+            "firstLetter-R",
+            "difficulty-insane-16.2"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.3,
+            "insane": 16.2
+        }
+    },
+    {
+        "id": "Rrharil.TeamGrimoire",
+        "name": "Rrhar'il",
+        "aliases": [
+            "Rr",
+            "穿越时空的猎犬",
+            "猫娘",
+            "RrAT",
+            "Rrharil",
+            "狗娘"
+        ],
+        "artist": "Team Grimoire",
+        "attributes": [
+            "firstLetter-R",
+            "difficulty-insane-16.1",
+            "difficulty-another-17.6"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 12.7,
+            "insane": 16.1,
+            "another": 17.6
+        }
+    },
+    {
+        "id": "RubbishSorting.CtymaxvsNceS",
+        "name": "Rubbish Sorting",
+        "aliases": [
+            "垃圾分类"
+        ],
+        "artist": "Ctymax vs. NceS",
+        "attributes": [
+            "firstLetter-R"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.4,
+            "insane": 13.1
+        }
+    },
+    {
+        "id": "SATELLITE.かめりあ",
+        "name": "S.A.T.E.L.L.I.T.E.",
+        "aliases": [
+            "SATELLITE",
+            "卫星"
+        ],
+        "artist": "かめりあ",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.9,
+            "insane": 14.3,
+            "another": 16.2
+        }
+    },
+    {
+        "id": "SIGMA.Kryexe",
+        "name": "SIGMA",
+        "aliases": [],
+        "artist": "Kry.exe",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.5,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "SURREALISM.Itsuki",
+        "name": "-SURREALISM-",
+        "aliases": [
+            "SURREALISM",
+            "超现实"
+        ],
+        "artist": "Itsuki",
+        "attributes": [],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.4,
+            "insane": 13.4
+        }
+    },
+    {
+        "id": "Schadenfreude.ZxNX",
+        "name": "Schadenfreude",
+        "aliases": [],
+        "artist": "ZxNX",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.6,
+            "insane": 15.1
+        }
+    },
+    {
+        "id": "SecretIllumination.Yooh",
+        "name": "Secret Illumination",
+        "aliases": [],
+        "artist": "Yooh",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.2,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "Sein.朔Apo11oprogramvsお月さま交響曲ftkuroa荒巻",
+        "name": "Sein",
+        "aliases": [],
+        "artist": "朔(Apo11o program vs. お月さま交響曲) ft. kuroa*×荒巻",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.1,
+            "insane": 15.1
+        }
+    },
+    {
+        "id": "Shadow.SumaiLightvs姜米條",
+        "name": "Shadow",
+        "aliases": [],
+        "artist": "姜米條&SumaiLight",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 10.5,
+            "insane": 14.6,
+            "another": 16.2
+        }
+    },
+    {
+        "id": "Shelter.MeatyRabbitNceS",
+        "name": "Shelter",
+        "aliases": [],
+        "artist": "MeatyRabbit & NceS",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 8.8,
+            "insane": 13.2
+        }
+    },
+    {
+        "id": "ShineAfter.ADeanJocularACE",
+        "name": "Shine After",
+        "aliases": [],
+        "artist": "ADean & JocularACE",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.7,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "SilenceisGoldenSpeechisGolden.NIWASHI",
+        "name": "Silence is Golden, Speech is Golden",
+        "aliases": [
+            "沉默是金，言亦是金"
+        ],
+        "artist": "NIWASHI",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.3,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "SnowDance.悠叶いのり",
+        "name": "Snow Dance",
+        "aliases": [],
+        "artist": "悠叶いのり",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.3,
+            "insane": 12.4
+        }
+    },
+    {
+        "id": "SnowDesert.WyvernP",
+        "name": "Snow Desert",
+        "aliases": [],
+        "artist": "WyvernP",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.3,
+            "insane": 13.4
+        }
+    },
+    {
+        "id": "SolaggyfeatUzumaki.ShrimpCatsはぁち後藤涼輔",
+        "name": "So laggy! (feat. Uzumaki)",
+        "aliases": [],
+        "artist": "ShrimpCats. (はぁち×後藤涼輔)",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.5,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "SparkleNewLife.rider",
+        "name": "Sparkle New Life",
+        "aliases": [],
+        "artist": "rider",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.2,
+            "insane": 12.8
+        }
+    },
+    {
+        "id": "Spasmodic.姜米條颶風元力上人",
+        "name": "Spasmodic",
+        "aliases": [
+            "痉挛",
+            "粉毛异瞳双马尾"
+        ],
+        "artist": "姜米條☆颶風 ~ ♫元力上人♫",
+        "attributes": [
+            "firstLetter-S",
+            "difficulty-easy-8",
+            "difficulty-hard-13",
+            "difficulty-another-16.7"
+        ],
+        "difficulty": {
+            "easy": 8.2,
+            "hard": 13.3,
+            "insane": 15.5,
+            "another": 16.7
+        }
+    },
+    {
+        "id": "SpeedUp.DarTokki",
+        "name": "Speed Up!",
+        "aliases": [],
+        "artist": "DarTokki",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.3,
+            "insane": 14.0
+        }
+    },
+    {
+        "id": "Spotlight.Ardolf",
+        "name": "Spotlight",
+        "aliases": [],
+        "artist": "Ardolf",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.9,
+            "insane": 14.4
+        }
+    },
+    {
+        "id": "StardustRAY.kanonevsBlackY",
+        "name": "Stardust:RAY",
+        "aliases": [
+            "星辰光"
+        ],
+        "artist": "kanone vs. BlackY",
+        "attributes": [
+            "firstLetter-S",
+            "difficulty-insane-16.5",
+            "difficulty-another-17.2"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 12.3,
+            "insane": 16.5,
+            "another": 17.2
+        }
+    },
+    {
+        "id": "Starduster.Quree",
+        "name": "Starduster",
+        "aliases": [],
+        "artist": "Quree",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.4,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "Stasis.Maozon",
+        "name": "Stasis",
+        "aliases": [
+            "船"
+        ],
+        "artist": "Maozon",
+        "attributes": [
+            "firstLetter-S",
+            "difficulty-another-16.7"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.1,
+            "insane": 15.3,
+            "another": 16.7
+        }
+    },
+    {
+        "id": "SultanRage.MonstDeath",
+        "name": "Sultan Rage",
+        "aliases": [
+            "苏丹"
+        ],
+        "artist": "MonstDeath",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 7.0,
+            "insane": 12.3
+        }
+    },
+    {
+        "id": "SwingSkipDrop.ミハイル",
+        "name": "Swing Skip Drop",
+        "aliases": [],
+        "artist": "ミハイル",
+        "attributes": [
+            "firstLetter-S"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.1,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "TECHNOPOLIS2085.PRASTIKDANCEFLOOR",
+        "name": "TECHNOPOLIS 2085",
+        "aliases": [
+            "2085"
+        ],
+        "artist": "PRASTIK DANCEFLOOR",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.2,
+            "insane": 14.1,
+            "another": 15.9
+        }
+    },
+    {
+        "id": "TemporalShifting.LureRabbitVC",
+        "name": "Temporal Shifting",
+        "aliases": [],
+        "artist": "Lure Rabbit & V!C",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 11.5,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "TheChariotREVIIVAL.Attoclef",
+        "name": "The Chariot ~REVIIVAL~",
+        "aliases": [
+            "The Chariot Reviival",
+            "The Chariot Revival",
+            "战车"
+        ],
+        "artist": "Attoclef",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.0,
+            "insane": 14.0
+        }
+    },
+    {
+        "id": "TheMountainEater.PaulBazooka",
+        "name": "The Mountain Eater",
+        "aliases": [
+            "吃山者"
+        ],
+        "artist": "Paul Bazooka",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.6,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "TheWholeRest.KIVΛ",
+        "name": "The Whole Rest",
+        "aliases": [],
+        "artist": "KIVΛ",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 9.6,
+            "insane": 13.6
+        }
+    },
+    {
+        "id": "Thrashforce.KAHvsE0ri4",
+        "name": "Thrash force",
+        "aliases": [],
+        "artist": "KAH vs. E0ri4",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.7,
+            "insane": 15.3
+        }
+    },
+    {
+        "id": "TimetoNightSkyfeatLeeYuJin.HyuNKLYDIX",
+        "name": "Time to Night Sky (feat. Lee Yu Jin)",
+        "aliases": [],
+        "artist": "HyuN & KLYDIX",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 10.1,
+            "insane": 13.6
+        }
+    },
+    {
+        "id": "Trane.MALVA",
+        "name": "Träne",
+        "aliases": [
+            "Trane"
+        ],
+        "artist": "MALVA.",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 7.0,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "TriumphRegret.typeMARS",
+        "name": "Triumph & Regret",
+        "aliases": [],
+        "artist": "typeMARS",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.0,
+            "insane": 15.0
+        }
+    },
+    {
+        "id": "Trojan.litmus",
+        "name": "Trojan",
+        "aliases": [],
+        "artist": "litmus*",
+        "attributes": [
+            "firstLetter-T"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.8,
+            "insane": 15.0
+        }
+    },
+    {
+        "id": "UnorthodoxThoughts.Joulez",
+        "name": "Unorthodox Thoughts",
+        "aliases": [],
+        "artist": "Joulez",
+        "attributes": [
+            "firstLetter-U"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 12.0,
+            "insane": 13.9
+        }
+    },
+    {
+        "id": "Upshift.Iriss-Frantzz",
+        "name": "Upshift",
+        "aliases": [],
+        "artist": "Iriss-Frantzz",
+        "attributes": [
+            "firstLetter-U"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.8,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "Verruckt.Raimukun",
+        "name": "Verrückt",
+        "aliases": [
+            "Verruckt",
+            "癫狂"
+        ],
+        "artist": "Raimukun",
+        "attributes": [
+            "firstLetter-V",
+            "difficulty-insane-16.5"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 12.6,
+            "insane": 16.5
+        }
+    },
+    {
+        "id": "WATER.A39沙包P",
+        "name": "WATER",
+        "aliases": [
+            "水"
+        ],
+        "artist": "A-39/沙包P",
+        "attributes": [
+            "firstLetter-W"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.4,
+            "insane": 13.6
+        }
+    },
+    {
+        "id": "Wavetapper.Frums",
+        "name": "Wavetapper",
+        "aliases": [],
+        "artist": "Frums",
+        "attributes": [
+            "firstLetter-W"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 9.4,
+            "insane": 13.9
+        }
+    },
+    {
+        "id": "Wintercube.CtymaxfeatNceS",
+        "name": "Winter ↑cube↓",
+        "aliases": [
+            "Winter Cube",
+            "冬立方"
+        ],
+        "artist": "Ctymax feat. NceS",
+        "attributes": [
+            "firstLetter-W"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 8.2,
+            "insane": 13.3
+        }
+    },
+    {
+        "id": "WithYou.Cashew",
+        "name": "With You",
+        "aliases": [],
+        "artist": "Cashew",
+        "attributes": [
+            "firstLetter-W"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.1,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "XING.ginkiha",
+        "name": "XING",
+        "aliases": [],
+        "artist": "ginkiha",
+        "attributes": [
+            "firstLetter-X"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.9,
+            "insane": 13.9
+        }
+    },
+    {
+        "id": "Xenolith.Tatsh",
+        "name": "Xenolith",
+        "aliases": [],
+        "artist": "Tatsh",
+        "attributes": [
+            "firstLetter-X"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.5,
+            "insane": 14.2
+        }
+    },
+    {
+        "id": "Xenophobia.XinG",
+        "name": "Xenophobia",
+        "aliases": [],
+        "artist": "XinG",
+        "attributes": [
+            "firstLetter-X"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.7,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "Xepion.Acotto",
+        "name": "Xep+ion",
+        "aliases": [],
+        "artist": "Acotto",
+        "attributes": [
+            "firstLetter-X"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 9.8,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "YouaretheMiserable.tpazolite",
+        "name": "You are the Miserable",
+        "aliases": [],
+        "artist": "t+pazolite",
+        "attributes": [
+            "firstLetter-Y"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.7,
+            "insane": 14.1,
+            "another": 15.8
+        }
+    },
+    {
+        "id": "atruthseekerCommunicationwithUtopiawillbelost.kuro",
+        "name": "a truth seeker -Communication with Utopia will be lost-",
+        "aliases": [
+            "真理寻者"
+        ],
+        "artist": "kuro",
+        "attributes": [
+            "firstLetter-A"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.4,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "bye.DingerBox",
+        "name": "bye",
+        "aliases": [],
+        "artist": "DingerBox",
+        "attributes": [
+            "firstLetter-B"
+        ],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.1,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "cryout.JuE",
+        "name": "cryout",
+        "aliases": [
+            "出去哭"
+        ],
+        "artist": "Ju_E",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.9,
+            "insane": 13.6
+        }
+    },
+    {
+        "id": "csqn.Aoi",
+        "name": "c.s.q.n.",
+        "aliases": [
+            "csqn",
+            "草酸氢钠"
+        ],
+        "artist": "Aoi",
+        "attributes": [
+            "firstLetter-C"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 12.2,
+            "insane": 15.9
+        }
+    },
+    {
+        "id": "dBdoll.YUESTEVENuen",
+        "name": "dB doll",
+        "aliases": [
+            "分贝玩偶"
+        ],
+        "artist": "YUE.STEVEN/uen",
+        "attributes": [
+            "firstLetter-D"
+        ],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 3.5,
+            "insane": 8.3,
+            "another": 13.6
+        }
+    },
+    {
+        "id": "energytrixxx.KAH",
+        "name": "energy trixxx",
+        "aliases": [],
+        "artist": "KAH",
+        "attributes": [
+            "firstLetter-E"
+        ],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.4,
+            "insane": 15.4
+        }
+    },
+    {
+        "id": "iLArtifact.Link0",
+        "name": "iL-Artifact",
+        "aliases": [],
+        "artist": "Link''0",
+        "attributes": [
+            "firstLetter-I"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.5,
+            "insane": 15.7
+        }
+    },
+    {
+        "id": "inferior.姜米條",
+        "name": "inferior",
+        "aliases": [],
+        "artist": "姜米條",
+        "attributes": [
+            "firstLetter-I"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 7.5,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "lifeflashesbeforeweebeyes.BilliumMoto",
+        "name": "life flashes before weeb eyes",
+        "aliases": [],
+        "artist": "BilliumMoto",
+        "attributes": [
+            "firstLetter-L"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.9,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "mechanted.rareguy",
+        "name": "mechanted",
+        "aliases": [],
+        "artist": "rareguy",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 11.3,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "microwav.dandeless",
+        "name": "micro.wav",
+        "aliases": [
+            "microwav",
+            "microwave",
+            "微波炉"
+        ],
+        "artist": "dandeless",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.5,
+            "insane": 14.7
+        }
+    },
+    {
+        "id": "modulus.PTB10",
+        "name": "modulus",
+        "aliases": [],
+        "artist": "PTB10",
+        "attributes": [
+            "firstLetter-M"
+        ],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.4,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "opia.rN",
+        "name": "opia",
+        "aliases": [],
+        "artist": "rN",
+        "attributes": [
+            "firstLetter-O"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.6,
+            "insane": 15.6
+        }
+    },
+    {
+        "id": "parsey.siqlo",
+        "name": "ρars/ey",
+        "aliases": [
+            "parsey"
+        ],
+        "artist": "siqlo",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 11.7,
+            "insane": 14.6
+        }
+    },
+    {
+        "id": "slips.rintarosoma",
+        "name": "sølips",
+        "aliases": [
+            "嗦",
+            "solips"
+        ],
+        "artist": "rintaro soma",
+        "attributes": [
+            "firstLetter-S",
+            "difficulty-insane-16.0",
+            "difficulty-another-16.8"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 12.8,
+            "insane": 16.0,
+            "another": 16.8
+        }
+    },
+    {
+        "id": "valorstarcross.LundyvsWyvren",
+        "name": "valor/starcross",
+        "aliases": [
+            "穿星",
+            "valor starcross"
+        ],
+        "artist": "Lundy vs. Wyvren",
+        "attributes": [
+            "firstLetter-V"
+        ],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 12.7,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "volcanic.DETROakaルゼ",
+        "name": "volcanic",
+        "aliases": [
+            "火山"
+        ],
+        "artist": "DETRO a.k.a. ルゼ",
+        "attributes": [
+            "firstLetter-V",
+            "difficulty-another-16.6"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 12.1,
+            "insane": 14.7,
+            "another": 16.6
+        }
+    },
+    {
+        "id": "いざ参ります.Uskefeat棗いつき",
+        "name": "いざ、参ります",
+        "aliases": [
+            "参上",
+            "现在、参上",
+            "iza mairimasu"
+        ],
+        "artist": "U-ske feat. 棗いつき",
+        "attributes": [],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.2,
+            "insane": 15.0
+        }
+    },
+    {
+        "id": "ぱぴぷぴぷぴぱ.ころねぽちWith立秋",
+        "name": "ぱぴぷぴぷぴぱ",
+        "aliases": [
+            "拉面馆",
+            "立秋",
+            "papipupipupipa"
+        ],
+        "artist": "ころねぽち With 立秋",
+        "attributes": [],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 12.3,
+            "insane": 15.9
+        }
+    },
+    {
+        "id": "もぺもぺ.LeaF",
+        "name": "もぺもぺ",
+        "aliases": [
+            "小蓝花",
+            "mopemope",
+            "毛八毛八"
+        ],
+        "artist": "LeaF",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 6.5,
+            "insane": 11.1,
+            "another": 15.4
+        }
+    },
+    {
+        "id": "アンビバレンス.すりぃ相沢",
+        "name": "アンビバレンス",
+        "aliases": [
+            "anbibarens",
+            "矛盾心理",
+            "ambivalence"
+        ],
+        "artist": "すりぃ×相沢",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.7,
+            "insane": 14.1
+        }
+    },
+    {
+        "id": "インフェルノシティ.Ponchifeatはぁち",
+        "name": "インフェルノシティ",
+        "aliases": [
+            "地狱之城",
+            "inferunoshiti",
+            "inferno city"
+        ],
+        "artist": "Ponchi♪ feat. はぁち",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 11.5,
+            "insane": 15.7
+        }
+    },
+    {
+        "id": "インマイマインド.レシオP",
+        "name": "インマイマインド",
+        "aliases": [
+            "inmaimaindo",
+            "in my mind"
+        ],
+        "artist": "レシオP",
+        "attributes": [],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 9.2,
+            "insane": 12.2
+        }
+    },
+    {
+        "id": "ジングルベルJingleBell.A39沙包P",
+        "name": "ジングルベル(Jingle Bell)",
+        "aliases": [
+            "jinguruberu",
+            "Jingle Bell",
+            "初音机关枪",
+            "圣诞歌"
+        ],
+        "artist": "A-39/沙包P",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 8.5,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "ストレイソウルアラウンド.みーに",
+        "name": "ストレイソウル・アラウンド",
+        "aliases": [
+            "sutoreinuru araundo",
+            "四处游荡的灵魂"
+        ],
+        "artist": "みーに",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 9.8,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "ニライカナイNiraicA_naiMix.roopfromSTR",
+        "name": "ニライカナイ (NiraicA_nai Mix)",
+        "aliases": [
+            "niraikanai",
+            "Niraica nai mix"
+        ],
+        "artist": "roop from STR",
+        "attributes": [],
+        "difficulty": {
+            "easy": 3.0,
+            "hard": 8.3,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "万吨匿名信.闫东炜",
+        "name": "万吨匿名信",
+        "aliases": [],
+        "artist": "闫东炜",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.5,
+            "insane": 13.3
+        }
+    },
+    {
+        "id": "下一秒.BobHouSherlock卓智媛feat兰音Reine",
+        "name": "下一秒",
+        "aliases": [],
+        "artist": "Bob Hou & Sherlock卓智媛 feat. 兰音Reine",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.5,
+            "insane": 13.2
+        }
+    },
+    {
+        "id": "亂舞.NekockLK",
+        "name": "亂★舞",
+        "aliases": [
+            "乱舞"
+        ],
+        "artist": "Nekock·LK",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 7.5,
+            "insane": 13.0
+        }
+    },
+    {
+        "id": "云女孩.符白牙SiYFics",
+        "name": "云女孩",
+        "aliases": [],
+        "artist": "符白牙/SiYFics",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 8.9,
+            "insane": 12.8
+        }
+    },
+    {
+        "id": "今天不是明天.PIKASONICfeat兰音Reine",
+        "name": "今天不是明天",
+        "aliases": [],
+        "artist": "PIKASONIC feat. 兰音Reine",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 8.3,
+            "insane": 13.4
+        }
+    },
+    {
+        "id": "光.姜米條",
+        "name": "光",
+        "aliases": [],
+        "artist": "姜米條",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 7.5,
+            "insane": 12.4
+        }
+    },
+    {
+        "id": "千紫万紅.r0yvsWABI",
+        "name": "千紫万紅",
+        "aliases": [],
+        "artist": "r0y vs. WABI",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 12.1,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "双重间谍DoubleAgent.WAVAV",
+        "name": "双重间谍 (Double Agent)",
+        "aliases": [],
+        "artist": "Wav.AV",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 11.8,
+            "insane": 15.7
+        }
+    },
+    {
+        "id": "君往何处QuoVadis.M2U",
+        "name": "君往何处 (Quo Vadis)",
+        "aliases": [],
+        "artist": "M2U",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.6,
+            "insane": 14.1
+        }
+    },
+    {
+        "id": "夢の降る日に.seatrus",
+        "name": "夢の降る日に",
+        "aliases": [
+            "梦降日"
+        ],
+        "artist": "seatrus",
+        "attributes": [
+            "difficulty-insane-16.6"
+        ],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 9.8,
+            "insane": 16.6
+        }
+    },
+    {
+        "id": "大和撫子WildDances.adapatorvsDRIVE",
+        "name": "大和撫子 -Wild Dances-",
+        "aliases": [
+            "大和抚子",
+            "Wild Dances"
+        ],
+        "artist": "adaptor vs DRIVE.",
+        "attributes": [],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 11.8,
+            "insane": 15.1
+        }
+    },
+    {
+        "id": "宇宙残骸少女CosmicDustyGirl.辻原一郎",
+        "name": "宇宙残骸少女 (Cosmic Dusty Girl)",
+        "aliases": [],
+        "artist": "辻原一郎",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.2,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "尊師TheGuru.rider",
+        "name": "尊師 ～The Guru～",
+        "aliases": [
+            "尊师 The Guru"
+        ],
+        "artist": "rider",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.6,
+            "insane": 15.4
+        }
+    },
+    {
+        "id": "幻影鬼魅PLEASE.R300K",
+        "name": "幻影鬼魅 (PLEASE)",
+        "aliases": [
+            "请"
+        ],
+        "artist": "R300K",
+        "attributes": [
+            "difficulty-another-17.0"
+        ],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.6,
+            "insane": 15.2,
+            "another": 17.0
+        }
+    },
+    {
+        "id": "幽世桔梗.Capchiifeatまるもこ",
+        "name": "幽世桔梗",
+        "aliases": [],
+        "artist": "Capchii feat. まるもこ",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.1,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "开心病.闫东炜",
+        "name": "开心病",
+        "aliases": [],
+        "artist": "闫东炜",
+        "attributes": [],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 11.9,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "彩.MisoilePunch",
+        "name": "彩",
+        "aliases": [],
+        "artist": "MisoilePunch♪",
+        "attributes": [
+            "difficulty-insane-16.4"
+        ],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 12.5,
+            "insane": 16.4
+        }
+    },
+    {
+        "id": "彼方へ名もなき海辺より.打打だいず&月乃",
+        "name": "彼方へ、名もなき海辺より",
+        "aliases": [
+            "去远方、从无名的海边",
+            "hihouhe, meimonakikaihenyori"
+        ],
+        "artist": "打打だいず&月乃",
+        "attributes": [],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 8.1,
+            "insane": 14.5
+        }
+    },
+    {
+        "id": "心の記憶.A39沙包P",
+        "name": "心の記憶",
+        "aliases": [
+            "心的记忆",
+            "shinnokioku"
+        ],
+        "artist": "A-39/沙包P",
+        "attributes": [],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 9.1,
+            "insane": 13.3
+        }
+    },
+    {
+        "id": "心之所向.姜米條",
+        "name": "心之所向",
+        "aliases": [],
+        "artist": "姜米條",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.2,
+            "insane": 13.8
+        }
+    },
+    {
+        "id": "明鏡烈火.MUEvsRekuMochizuki",
+        "name": "明鏡烈火",
+        "aliases": [
+            "明镜烈火"
+        ],
+        "artist": "M-UE vs. Reku Mochizuki",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.1,
+            "insane": 15.9
+        }
+    },
+    {
+        "id": "暗夜苏醒REANIMATE.Warak",
+        "name": "暗夜苏醒 (REANIMATE)",
+        "aliases": [],
+        "artist": "Warak",
+        "attributes": [],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 12.8,
+            "insane": 15.3
+        }
+    },
+    {
+        "id": "最高傑作.PYKAMIA",
+        "name": "最高傑作",
+        "aliases": [
+            "最高杰作"
+        ],
+        "artist": "PYKAMIA",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.3,
+            "insane": 13.9
+        }
+    },
+    {
+        "id": "月下缭乱.月見静華vsLUNARiUM",
+        "name": "月下缭乱",
+        "aliases": [],
+        "artist": "月見静華 vs. LUNARiUM",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 9.4,
+            "insane": 14.9
+        }
+    },
+    {
+        "id": "月詠に鳴る.Feryquitousfeat藍月なくる",
+        "name": "月詠に鳴る",
+        "aliases": [
+            "月咏",
+            "tsukieininaru"
+        ],
+        "artist": "Feryquitous feat.藍月なくる",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 11.4,
+            "insane": 14.5,
+            "another": 15.7
+        }
+    },
+    {
+        "id": "望影の方舟Six.SeURa",
+        "name": "望影の方舟Six",
+        "aliases": [
+            "望影方舟"
+        ],
+        "artist": "Se-U-Ra",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.5,
+            "hard": 11.9,
+            "insane": 15.9
+        }
+    },
+    {
+        "id": "桜樹街道.kozatosnow",
+        "name": "桜樹街道",
+        "aliases": [
+            "樱树街道",
+            "sakuragikaidou"
+        ],
+        "artist": "kozato snow",
+        "attributes": [],
+        "difficulty": {
+            "easy": 3.5,
+            "hard": 8.1,
+            "insane": 13.0
+        }
+    },
+    {
+        "id": "混乱Confusion.OnlyMyBlackScore",
+        "name": "混乱-Confusion",
+        "aliases": [],
+        "artist": "Only My Black Score",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 10.0,
+            "insane": 14.8
+        }
+    },
+    {
+        "id": "游园地.椒盐菠萝",
+        "name": "游园地",
+        "aliases": [],
+        "artist": "椒盐菠萝",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.5,
+            "hard": 7.5,
+            "insane": 13.2
+        }
+    },
+    {
+        "id": "狂喜蘭舞.LeaF",
+        "name": "狂喜蘭舞",
+        "aliases": [
+            "狂喜兰舞",
+            "kyoukiranmai"
+        ],
+        "artist": "LeaF",
+        "attributes": [],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 11.7,
+            "insane": 14.3,
+            "another": 16.4
+        }
+    },
+    {
+        "id": "玩具狂奏曲終焉.きくお",
+        "name": "玩具狂奏曲 -終焉-",
+        "aliases": [],
+        "artist": "きくお",
+        "attributes": [
+            "difficulty-easy-8",
+            "difficulty-hard-13",
+            "difficulty-another-17.0"
+        ],
+        "difficulty": {
+            "easy": 8.4,
+            "hard": 13.1,
+            "insane": 15.8,
+            "another": 17.0
+        }
+    },
+    {
+        "id": "瓷岁.茶鸣拾贰律",
+        "name": "瓷岁",
+        "aliases": [],
+        "artist": "茶鸣拾贰律",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 6.5,
+            "insane": 7.0
+        }
+    },
+    {
+        "id": "白と黒のバケモノ.テヅカ",
+        "name": "白と黒のバケモノ",
+        "aliases": [
+            "shirotokuronobakemono",
+            "白与黑的怪物"
+        ],
+        "artist": "テヅカ",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 11.4,
+            "insane": 15.9
+        }
+    },
+    {
+        "id": "百鬼夜行.SaladSavior",
+        "name": "百鬼֎夜行",
+        "aliases": [
+            "百鬼夜行"
+        ],
+        "artist": "Salad Savior",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.1,
+            "insane": 15.8
+        }
+    },
+    {
+        "id": "盏茗.茶鸣拾贰律",
+        "name": "盏茗",
+        "aliases": [],
+        "artist": "茶鸣拾贰律",
+        "attributes": [],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 4.5,
+            "insane": 13.4
+        }
+    },
+    {
+        "id": "祈-我ら神祖と共に歩む者なり-.光吉猛修VS穴山大輔VSKaiVS水野健治VS大国奏音",
+        "name": "祈 -我ら神祖と共に歩む者なり-",
+        "aliases": [
+            "ino - warerashinsototamoniayumunomonari - ",
+            "祈"
+        ],
+        "artist": "光吉猛修 VS 穴山大輔 VS Kai VS 水野健治 VS 大国奏音",
+        "attributes": [
+            "difficulty-hard-13",
+            "difficulty-insane-16.4",
+            "difficulty-another-17.3"
+        ],
+        "difficulty": {
+            "easy": 7.0,
+            "hard": 13.2,
+            "insane": 16.4,
+            "another": 17.3
+        }
+    },
+    {
+        "id": "神話.PicaM2U",
+        "name": "神話",
+        "aliases": [
+            "神话"
+        ],
+        "artist": "Pica & M2U",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 8.7,
+            "insane": 13.5
+        }
+    },
+    {
+        "id": "聖夜讃歌.A39沙包P",
+        "name": "聖夜讃歌",
+        "aliases": [
+            "圣夜赞歌"
+        ],
+        "artist": "A-39/沙包P",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.1,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "華灯爱.闫东炜",
+        "name": "華灯爱",
+        "aliases": [
+            "华灯爱"
+        ],
+        "artist": "闫东炜",
+        "attributes": [],
+        "difficulty": {
+            "easy": 6.0,
+            "hard": 10.6,
+            "insane": 13.7
+        }
+    },
+    {
+        "id": "萤火虫の怨.闫东炜",
+        "name": "萤火虫の怨",
+        "aliases": [
+            "萤火虫的怨",
+            "萤火虫之怨"
+        ],
+        "artist": "闫东炜",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.0,
+            "hard": 9.8,
+            "insane": 13.0
+        }
+    },
+    {
+        "id": "蝎虎天体Lacertid.CreamvsDaily天利",
+        "name": "蝎虎天体 -Lacertid-",
+        "aliases": [],
+        "artist": "Cream vs. Daily天利",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.8,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "贝多芬祝福BeethovenBlessing.Nauts",
+        "name": "贝多芬祝福 (Beethoven Blessing)",
+        "aliases": [],
+        "artist": "Nauts",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.3,
+            "insane": 15.0
+        }
+    },
+    {
+        "id": "重生.姜米條",
+        "name": "重生",
+        "aliases": [],
+        "artist": "姜米條",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 8.8,
+            "insane": 14.3
+        }
+    },
+    {
+        "id": "雪降りメリクリ.A39",
+        "name": "雪降り、メリクリ",
+        "aliases": [
+            "yukifuri merikuri",
+            "Merry Christmas",
+            "下雪了",
+            "圣诞快乐",
+            "雪降"
+        ],
+        "artist": "A-39",
+        "attributes": [],
+        "difficulty": {
+            "easy": 4.5,
+            "hard": 10.8,
+            "insane": 15.4
+        }
+    },
+    {
+        "id": "雪降り雪が降っている.AiSSw夜輪ft結月ゆかり",
+        "name": "雪降り ~雪が降っている~",
+        "aliases": [
+            "yukifuri yukigafutteiru",
+            "下雪了",
+            "雪降",
+            "雪降SP"
+        ],
+        "artist": "AiSS w/ 夜輪 ft. 結月ゆかり",
+        "attributes": [],
+        "difficulty": {
+            "easy": 1.5,
+            "hard": 7.5,
+            "insane": 12.0,
+            "another": 14.0
+        }
+    },
+    {
+        "id": "零號車輛.seatrus",
+        "name": "零號車輛",
+        "aliases": [
+            "零车",
+            "零号车辆"
+        ],
+        "artist": "seatrus",
+        "attributes": [
+            "difficulty-insane-16.2"
+        ],
+        "difficulty": {
+            "easy": 7.5,
+            "hard": 12.1,
+            "insane": 16.2
+        }
+    },
+    {
+        "id": "青丘.BLACK0",
+        "name": "青丘",
+        "aliases": [],
+        "artist": "BLACK 0",
+        "attributes": [],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 10.5,
+            "insane": 15.5
+        }
+    },
+    {
+        "id": "青芽.茶鸣拾贰律",
+        "name": "青芽",
+        "aliases": [],
+        "artist": "茶鸣拾贰律",
+        "attributes": [],
+        "difficulty": {
+            "easy": 5.0,
+            "hard": 10.4,
+            "insane": 15.2
+        }
+    },
+    {
+        "id": "风屿.闫东炜",
+        "name": "风屿",
+        "aliases": [],
+        "artist": "闫东炜",
+        "attributes": [],
+        "difficulty": {
+            "easy": 5.5,
+            "hard": 9.8,
+            "insane": 14.0,
+            "another": 15.1
+        }
+    },
+    {
+        "id": "黄金之城GOLDTOWN.Memme",
+        "name": "黄金之城 (GOLD TOWN)",
+        "aliases": [],
+        "artist": "MEMME",
+        "attributes": [],
+        "difficulty": {
+            "easy": 2.0,
+            "hard": 10.2,
+            "insane": 14.7
+        }
+    }
+]

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phigros 猜歌游戏</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="home-container">
+        <header class="home-header">
+            <h1 class="home-title">🎵 Phigros</h1>
+            <h2 class="home-subtitle">猜歌游戏</h2>
+        </header>
+
+        <main class="home-content">
+            <div class="mode-section">
+                <h3 class="mode-title">🏁 竞速模式</h3>
+                <p class="mode-desc">计时游戏，共10题，放弃视为退出游戏</p>
+                <div class="mode-buttons">
+                    <button class="mode-btn ez" data-mode="race" data-difficulty="ez">
+                        <span class="mode-btn-icon">EZ</span>
+                        <span class="mode-btn-info">罚时 3s</span>
+                    </button>
+                    <button class="mode-btn hd" data-mode="race" data-difficulty="hd">
+                        <span class="mode-btn-icon">HD</span>
+                        <span class="mode-btn-info">罚时 5s</span>
+                    </button>
+                    <button class="mode-btn in" data-mode="race" data-difficulty="in">
+                        <span class="mode-btn-icon">IN</span>
+                        <span class="mode-btn-info">罚时 20s</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mode-section">
+                <h3 class="mode-title">🔄 无尽模式</h3>
+                <p class="mode-desc">计答对次数，答错扣生命值，扣完结算</p>
+                <div class="mode-buttons">
+                    <button class="mode-btn ez" data-mode="endless" data-difficulty="ez">
+                        <span class="mode-btn-icon">EZ</span>
+                        <span class="mode-btn-info">生命 10</span>
+                    </button>
+                    <button class="mode-btn hd" data-mode="endless" data-difficulty="hd">
+                        <span class="mode-btn-icon">HD</span>
+                        <span class="mode-btn-info">生命 5</span>
+                    </button>
+                    <button class="mode-btn in" data-mode="endless" data-difficulty="in">
+                        <span class="mode-btn-icon">IN</span>
+                        <span class="mode-btn-info">生命 3</span>
+                    </button>
+                    <button class="mode-btn at" data-mode="endless" data-difficulty="at">
+                        <span class="mode-btn-icon">AT</span>
+                        <span class="mode-btn-info">生命 1</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mode-section">
+                <h3 class="mode-title">📖 练习模式</h3>
+                <p class="mode-desc">可以放弃题目，随时退出</p>
+                <div class="mode-buttons">
+                    <button class="mode-btn practice" data-mode="practice">
+                        <span class="mode-btn-icon">练习</span>
+                        <span class="mode-btn-info">自由练习</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="container" id="game-container" style="display: none;">
+        <header class="header">
+            <button class="back-btn" id="back-btn">← 返回</button>
+            <h1 class="title">🎵 Phigros 猜歌游戏</h1>
+            <div class="game-stats">
+                
+                <span class="stat-item" id="stat-time" style="display: none;">时间: 00:00</span>
+                <span class="stat-item" id="stat-lives" style="display: none;">❤️: 3</span>
+                <span class="stat-item" id="stat-progress" style="display: none;">进度: 1/10</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="question-section">
+                <div class="question-card">
+                    <div class="question-label">题目</div>
+                    <div class="question-name" id="question-name">加载中...</div>
+                    <div class="question-desc" id="question-desc">请稍候，正在加载题库...</div>
+                </div>
+            </div>
+
+            <div class="search-section">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="搜索歌曲名、别名..." autocomplete="off">
+                    <button class="clear-btn" id="clear-btn" style="display: none;">✕</button>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <div class="results-header">
+                    <span class="results-count" id="results-count">0</span> 首歌曲
+                </div>
+                <div class="results-list" id="results-list">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+
+            <div class="answer-section" id="answer-section" style="display: none;">
+                <div class="answer-card">
+                    <div class="answer-header">
+                        <span class="answer-badge correct" id="answer-badge">✓ 回答正确!</span>
+                    </div>
+                    <div class="answer-info">
+                        <div class="answer-name" id="answer-name"></div>
+                        <div class="answer-artist" id="answer-artist"></div>
+                    </div>
+                    <div class="illustration-container">
+                        <img id="illustration" src="" alt="曲绘" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'400\' viewBox=\'0 0 400 400\'%3E%3Crect fill=\'%231a1a2e\' width=\'400\' height=\'400\'/%3E%3Ctext fill=\'%23666\' font-family=\'sans-serif\' font-size=\'20\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dominant-baseline=\'middle\'%3E曲绘加载失败%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="other-answers" id="other-answers" style="display: none;">
+                        <div class="other-answers-label">其他符合条件的答案：</div>
+                        <div class="other-answers-list" id="other-answers-list"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="giveup-section" id="giveup-section" style="display: none;">
+                <div class="giveup-card">
+                    <div class="giveup-header">
+                        <span class="giveup-badge">放弃</span>
+                    </div>
+                    <div class="giveup-message">以下是符合条件的答案：</div>
+                    <div class="giveup-answers" id="giveup-answers"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <button class="btn btn-secondary" id="giveup-btn">放弃</button>
+            <button class="btn btn-primary" id="next-btn" style="display: none;">下一题</button>
+        </footer>
+    </div>
+
+    <div class="container" id="settlement-container" style="display: none;">
+        <header class="settlement-header">
+            <h1 class="settlement-title">游戏结束</h1>
+            <div class="settlement-status" id="settlement-status">练习完成</div>
+        </header>
+
+        <main class="settlement-content">
+            <div class="settlement-stats">
+                <div class="stat-box">
+                    <div class="stat-value" id="settlement-correct">0</div>
+                    <div class="stat-label">正确次数</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="settlement-wrong">0</div>
+                    <div class="stat-label">错误次数</div>
+                </div>
+                <div class="stat-box" id="settlement-time-box" style="display: none;">
+                    <div class="stat-value" id="settlement-time">00:00</div>
+                    <div class="stat-label">用时</div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="settlement-footer">
+            <button class="btn btn-primary" id="restart-btn">再来一局</button>
+            <button class="btn btn-secondary" id="home-btn">返回首页</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

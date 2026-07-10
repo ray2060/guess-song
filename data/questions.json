@@ -1,0 +1,232 @@
+[
+    {
+        "id": "difficulty-another-16.5",
+        "name": "AT难度定数为16.5",
+        "description": "AT难度定数为16.5的歌曲"
+    },
+    {
+        "id": "difficulty-another-16.6",
+        "name": "AT难度定数为16.6",
+        "description": "AT难度定数为16.6的歌曲"
+    },
+    {
+        "id": "difficulty-another-16.7",
+        "name": "AT难度定数为16.7",
+        "description": "AT难度定数为16.7的歌曲"
+    },
+    {
+        "id": "difficulty-another-16.8",
+        "name": "AT难度定数为16.8",
+        "description": "AT难度定数为16.8的歌曲"
+    },
+    {
+        "id": "difficulty-another-16.9",
+        "name": "AT难度定数为16.9",
+        "description": "AT难度定数为16.9的歌曲"
+    },
+    {
+        "id": "difficulty-another-17.0",
+        "name": "AT难度定数为17.0",
+        "description": "AT难度定数为17.0的歌曲"
+    },
+    {
+        "id": "difficulty-another-17.1",
+        "name": "AT难度定数为17.1",
+        "description": "AT难度定数为17.1的歌曲"
+    },
+    {
+        "id": "difficulty-another-17.2",
+        "name": "AT难度定数为17.2",
+        "description": "AT难度定数为17.2的歌曲"
+    },
+    {
+        "id": "difficulty-another-17.3",
+        "name": "AT难度定数为17.3",
+        "description": "AT难度定数为17.3的歌曲"
+    },
+    {
+        "id": "difficulty-another-17.4",
+        "name": "AT难度定数为17.4",
+        "description": "AT难度定数为17.4的歌曲"
+    },
+    {
+        "id": "difficulty-another-17.5",
+        "name": "AT难度定数为17.5",
+        "description": "AT难度定数为17.5的歌曲"
+    },
+    {
+        "id": "difficulty-another-17.6",
+        "name": "AT难度定数为17.6",
+        "description": "AT难度定数为17.6的歌曲"
+    },
+    {
+        "id": "difficulty-easy-8",
+        "name": "EZ难度定数为8",
+        "description": "EZ难度定数为8的歌曲"
+    },
+    {
+        "id": "difficulty-hard-13",
+        "name": "HD难度定数为13",
+        "description": "HD难度定数为13的歌曲"
+    },
+    {
+        "id": "difficulty-insane-16.0",
+        "name": "IN难度定数为16.0",
+        "description": "IN难度定数为16.0的歌曲"
+    },
+    {
+        "id": "difficulty-insane-16.1",
+        "name": "IN难度定数为16.1",
+        "description": "IN难度定数为16.1的歌曲"
+    },
+    {
+        "id": "difficulty-insane-16.2",
+        "name": "IN难度定数为16.2",
+        "description": "IN难度定数为16.2的歌曲"
+    },
+    {
+        "id": "difficulty-insane-16.3",
+        "name": "IN难度定数为16.3",
+        "description": "IN难度定数为16.3的歌曲"
+    },
+    {
+        "id": "difficulty-insane-16.4",
+        "name": "IN难度定数为16.4",
+        "description": "IN难度定数为16.4的歌曲"
+    },
+    {
+        "id": "difficulty-insane-16.5",
+        "name": "IN难度定数为16.5",
+        "description": "IN难度定数为16.5的歌曲"
+    },
+    {
+        "id": "difficulty-insane-16.6",
+        "name": "IN难度定数为16.6",
+        "description": "IN难度定数为16.6的歌曲"
+    },
+    {
+        "id": "firstLetter-A",
+        "name": "首字母为A",
+        "description": "歌名首字母为A的歌曲"
+    },
+    {
+        "id": "firstLetter-B",
+        "name": "首字母为B",
+        "description": "歌名首字母为B的歌曲"
+    },
+    {
+        "id": "firstLetter-C",
+        "name": "首字母为C",
+        "description": "歌名首字母为C的歌曲"
+    },
+    {
+        "id": "firstLetter-D",
+        "name": "首字母为D",
+        "description": "歌名首字母为D的歌曲"
+    },
+    {
+        "id": "firstLetter-E",
+        "name": "首字母为E",
+        "description": "歌名首字母为E的歌曲"
+    },
+    {
+        "id": "firstLetter-F",
+        "name": "首字母为F",
+        "description": "歌名首字母为F的歌曲"
+    },
+    {
+        "id": "firstLetter-G",
+        "name": "首字母为G",
+        "description": "歌名首字母为G的歌曲"
+    },
+    {
+        "id": "firstLetter-H",
+        "name": "首字母为H",
+        "description": "歌名首字母为H的歌曲"
+    },
+    {
+        "id": "firstLetter-I",
+        "name": "首字母为I",
+        "description": "歌名首字母为I的歌曲"
+    },
+    {
+        "id": "firstLetter-J",
+        "name": "首字母为J",
+        "description": "歌名首字母为J的歌曲"
+    },
+    {
+        "id": "firstLetter-K",
+        "name": "首字母为K",
+        "description": "歌名首字母为K的歌曲"
+    },
+    {
+        "id": "firstLetter-L",
+        "name": "首字母为L",
+        "description": "歌名首字母为L的歌曲"
+    },
+    {
+        "id": "firstLetter-M",
+        "name": "首字母为M",
+        "description": "歌名首字母为M的歌曲"
+    },
+    {
+        "id": "firstLetter-N",
+        "name": "首字母为N",
+        "description": "歌名首字母为N的歌曲"
+    },
+    {
+        "id": "firstLetter-O",
+        "name": "首字母为O",
+        "description": "歌名首字母为O的歌曲"
+    },
+    {
+        "id": "firstLetter-P",
+        "name": "首字母为P",
+        "description": "歌名首字母为P的歌曲"
+    },
+    {
+        "id": "firstLetter-Q",
+        "name": "首字母为Q",
+        "description": "歌名首字母为Q的歌曲"
+    },
+    {
+        "id": "firstLetter-R",
+        "name": "首字母为R",
+        "description": "歌名首字母为R的歌曲"
+    },
+    {
+        "id": "firstLetter-S",
+        "name": "首字母为S",
+        "description": "歌名首字母为S的歌曲"
+    },
+    {
+        "id": "firstLetter-T",
+        "name": "首字母为T",
+        "description": "歌名首字母为T的歌曲"
+    },
+    {
+        "id": "firstLetter-U",
+        "name": "首字母为U",
+        "description": "歌名首字母为U的歌曲"
+    },
+    {
+        "id": "firstLetter-V",
+        "name": "首字母为V",
+        "description": "歌名首字母为V的歌曲"
+    },
+    {
+        "id": "firstLetter-W",
+        "name": "首字母为W",
+        "description": "歌名首字母为W的歌曲"
+    },
+    {
+        "id": "firstLetter-X",
+        "name": "首字母为X",
+        "description": "歌名首字母为X的歌曲"
+    },
+    {
+        "id": "firstLetter-Y",
+        "name": "首字母为Y",
+        "description": "歌名首字母为Y的歌曲"
+    }
+]
