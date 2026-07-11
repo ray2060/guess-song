@@ -428,6 +428,19 @@ function filterSongs(query) {
     if (!query.trim()) return songs;
     
     const lowerQuery = query.toLowerCase();
+    
+    const exactMatches = songs.filter(song => {
+        const nameExact = song.name.toLowerCase() === lowerQuery;
+        const aliasExact = song.aliases.some(alias => 
+            alias.toLowerCase() === lowerQuery
+        );
+        return nameExact || aliasExact;
+    });
+    
+    if (exactMatches.length > 0) {
+        return exactMatches;
+    }
+    
     return songs.filter(song => {
         const nameMatch = song.name.toLowerCase().includes(lowerQuery);
         const aliasMatch = song.aliases.some(alias => 
