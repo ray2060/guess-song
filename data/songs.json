@@ -455,7 +455,7 @@
         },
         "update_date": "2020/1/24",
         "version": "1.2.5",
-        "bpm": "140~250",
+        "bpm": "140",
         "duration": 140,
         "charts": {
             "EZ": {
@@ -946,7 +946,7 @@
         },
         "update_date": "2025/8/8",
         "version": "3.15.0",
-        "bpm": "180~540",
+        "bpm": "180",
         "duration": 174,
         "charts": {
             "EZ": {
@@ -1784,7 +1784,7 @@
         },
         "update_date": "2020/3/20",
         "version": "1.4.0",
-        "bpm": "196~198",
+        "bpm": "197",
         "duration": 142,
         "charts": {
             "EZ": {
@@ -2552,7 +2552,7 @@
         },
         "update_date": "2022/3/18",
         "version": "2.1.3",
-        "bpm": "111~222",
+        "bpm": "111",
         "duration": 169,
         "charts": {
             "EZ": {
@@ -2725,7 +2725,7 @@
         },
         "update_date": "2025/4/18",
         "version": "3.13.0",
-        "bpm": "140~155",
+        "bpm": "140",
         "duration": 171,
         "charts": {
             "EZ": {
@@ -3379,7 +3379,7 @@
         },
         "update_date": "2020/9/19",
         "version": "1.5.2",
-        "bpm": "100~120",
+        "bpm": "100",
         "duration": 130,
         "charts": {
             "EZ": {
@@ -3818,7 +3818,7 @@
         },
         "update_date": "2024/2/24",
         "version": "3.5.0",
-        "bpm": "101~202",
+        "bpm": "101",
         "duration": 136,
         "charts": {
             "EZ": {
@@ -4689,7 +4689,7 @@
         },
         "update_date": "2026/1/16",
         "version": "3.18.2",
-        "bpm": "180~540",
+        "bpm": "180",
         "duration": 200,
         "charts": {
             "EZ": {
@@ -4882,7 +4882,7 @@
         },
         "update_date": "2023/11/17",
         "version": "3.3.0",
-        "bpm": "9.375~150",
+        "bpm": "150",
         "duration": 131,
         "charts": {
             "EZ": {
@@ -8631,7 +8631,7 @@
         },
         "update_date": "2021/4/1",
         "version": "1.6.5",
-        "bpm": "112~224",
+        "bpm": "112",
         "duration": 161,
         "charts": {
             "EZ": {
@@ -10795,7 +10795,7 @@
         },
         "update_date": "2022/7/22",
         "version": "2.3.2",
-        "bpm": "175~525",
+        "bpm": "175",
         "duration": 149,
         "charts": {
             "EZ": {
@@ -11071,7 +11071,7 @@
         },
         "update_date": "2026/4/24",
         "version": "3.19.1",
-        "bpm": "130~390",
+        "bpm": "130",
         "duration": 153,
         "charts": {
             "EZ": {
@@ -11266,7 +11266,7 @@
         },
         "update_date": "2023/12/15",
         "version": "3.4.0",
-        "bpm": "152~282",
+        "bpm": "152",
         "duration": 178,
         "charts": {
             "EZ": {
@@ -11620,7 +11620,7 @@
         },
         "update_date": "2025/8/31",
         "version": "3.15.1",
-        "bpm": "156~234",
+        "bpm": "156",
         "duration": 149,
         "charts": {
             "EZ": {

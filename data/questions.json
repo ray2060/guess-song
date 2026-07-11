@@ -10,6 +10,8 @@
         { "type": "difficulty-another-decimal-low", "weight": 1 },
         { "type": "firstLetter", "weight": 4 }
       ],
+      "compound_question_rate": 0,
+      "compound_question_types": [],
       "charter_min_songs": 1
     },
     "hd": {
@@ -20,36 +22,47 @@
         { "type": "difficulty-another-decimal", "weight": 3 },
         { "type": "firstLetter", "weight": 4 },
         { "type": "updateYear", "weight": 2 },
-        { "type": "charter", "weight": 1 }
+        { "type": "charter-in", "weight": 1 }
       ],
-      "charter_min_songs": 1
+      "compound_question_rate": 0,
+      "compound_question_types": [],
+      "charter_min_songs": 8
     },
     "in": {
       "question_types": [
-        { "type": "difficulty-easy-decimal", "weight": 1 },
-        { "type": "difficulty-hard-decimal", "weight": 1 },
         { "type": "difficulty-insane-decimal", "weight": 4 },
         { "type": "difficulty-another-decimal", "weight": 4 },
         { "type": "firstLetter", "weight": 2 },
         { "type": "updateYear", "weight": 2 },
-        { "type": "charter", "weight": 3 },
+        { "type": "charter-in", "weight": 3 },
         { "type": "charter-at", "weight": 3 },
         { "type": "duration", "weight": 4 }
       ],
-      "charter_min_songs": 5
+      "compound_question_rate": 0.25,
+      "compound_question_types": [
+        { "types" : ["difficulty-insane-decimal-wide", "difficulty-another-int-wide"], "weight": 3 },
+        { "types" : ["difficulty-insane-int-wide", "charter-in", "firstLetter"], "weight": 1 }
+      ],
+      "charter_min_songs": 4
     },
     "at": {
       "question_types": [
-        { "type": "difficulty-easy-decimal", "weight": 1 },
-        { "type": "difficulty-hard-decimal", "weight": 1 },
         { "type": "difficulty-insane-decimal-wide", "weight": 4 },
         { "type": "difficulty-another-decimal-wide", "weight": 4 },
         { "type": "firstLetter", "weight": 1 },
         { "type": "updateYear", "weight": 2 },
-        { "type": "charter", "weight": 3 },
+        { "type": "charter-in", "weight": 3 },
         { "type": "charter-at", "weight": 3 },
         { "type": "duration-at", "weight": 4 },
         { "type": "bpm", "weight": 4 }
+      ],
+      "compound_question_rate": 0.5,
+      "compound_question_types": [
+        { "types" : ["difficulty-insane-decimal-wide", "difficulty-another-int-wide"], "weight": 3 },
+        { "types" : ["difficulty-insane-decimal-wide", "duration-at"], "weight": 1 },
+        { "types" : ["difficulty-insane-decimal-wide", "bpm"], "weight": 1 },
+        { "types" : ["difficulty-insane-int", "updateYear", "firstLetter"], "weight": 2 },
+        { "types" : ["difficulty-another-int", "charter-at", "charter-in"], "weight": 2 }
       ],
       "charter_min_songs": 1
     }

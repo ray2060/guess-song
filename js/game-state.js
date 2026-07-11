@@ -1,0 +1,22 @@
+let songs = [];
+let questionConfig = {};
+let currentQuestion = null;
+let currentSearch = '';
+let answeredSongs = new Set();
+let recentQuestions = [];
+
+let gameMode = null;
+let gameDifficulty = null;
+let gameStartTime = 0;
+let gameTime = 0;
+let gameTimer = null;
+let gameProgress = 0;
+let gameLives = 0;
+let gamePenalty = 0;
+let gameScore = 0;
+let gameAnswerScore = 0;
+let gameMaxCombo = 0;
+let gameCurrentCombo = 0;
+let gameStartTimeMs = 0;
+let questionStartTime = 0;
+let gameState = { correct: 0, wrong: 0 };

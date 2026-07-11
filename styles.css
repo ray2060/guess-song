@@ -353,10 +353,16 @@ body {
 
 .song-details {
     display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.detail-row {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 6px;
-    margin-top: 8px;
 }
 
 .detail-tag {
@@ -366,6 +372,14 @@ body {
     border-radius: 10px;
     color: #c0c0c0;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.detail-tag.highlighted {
+    background: rgba(74, 222, 128, 0.2);
+    border-color: rgba(74, 222, 128, 0.5);
+    color: #4ade80;
+    box-shadow: 0 0 10px rgba(74, 222, 128, 0.3);
 }
 
 .illustration-container {
@@ -411,14 +425,33 @@ body {
     font-size: 13px;
 }
 
+.answer-info-content {
+    flex: 1;
+    min-width: 0;
+}
+
 .other-answer-name {
     font-family: 'Phigros', sans-serif;
     color: #fff;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .other-answer-artist {
     color: #666;
     font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.answer-detail {
+    margin-left: 12px;
+    font-size: 12px;
+    color: #4ade80;
+    white-space: nowrap;
 }
 
 .toggle-more-btn {
@@ -436,7 +469,36 @@ body {
 
 .toggle-more-btn:hover {
     background: rgba(255, 255, 255, 0.1);
-    color: #fff;
+    color: #aaa;
+}
+
+.tooltip-parent {
+    position: relative;
+}
+
+.tooltip-parent::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #ccc;
+    white-space: pre-line;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.tooltip-parent:hover::before {
+    opacity: 1;
+    visibility: visible;
 }
 
 .giveup-message {
@@ -464,11 +526,17 @@ body {
     font-family: 'Phigros', sans-serif;
     font-size: 14px;
     color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .giveup-answer-artist {
     font-size: 12px;
     color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .footer {
@@ -542,6 +610,12 @@ body {
     font-size: 24px;
     color: #a0a0a0;
     font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.home-version {
+    font-size: 14px;
+    color: #666;
 }
 
 .home-content {
@@ -682,35 +756,66 @@ body {
     display: inline-block;
 }
 
+.settlement-mode {
+    font-size: 14px;
+    color: #a0a0a0;
+    margin-top: 8px;
+}
+
 .settlement-content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#settlement-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.rating-image {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.rating-score {
+    font-family: 'Phigros', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+    flex-shrink: 0;
 }
 
 .settlement-stats {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
     width: 100%;
 }
 
 .stat-box {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
 }
 
 .stat-value {
-    font-size: 36px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 8px;
 }
 
 .stat-label {
-    font-size: 13px;
+    font-size: 12px;
     color: #666;
 }
 
@@ -788,5 +893,41 @@ body {
 
     .stat-value {
         font-size: 28px;
+    }
+}
+
+.countdown-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.countdown-number {
+    font-family: 'Phigros', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    animation: countdown-pop 1s ease-out forwards;
+}
+
+@keyframes countdown-pop {
+    0% {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    30% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
     }
 }

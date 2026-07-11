@@ -11,6 +11,7 @@
         <header class="home-header">
             <h1 class="home-title">🎵 Phigros</h1>
             <h2 class="home-subtitle">猜歌游戏</h2>
+            <div class="home-version">v3.19.4</div>
         </header>
 
         <main class="home-content">
@@ -94,6 +95,8 @@
                 <span class="stat-item" id="stat-time" style="display: none;">时间: 00:00</span>
                 <span class="stat-item" id="stat-lives" style="display: none;">❤️: 3</span>
                 <span class="stat-item" id="stat-progress" style="display: none;">进度: 1/10</span>
+                <span class="stat-item" id="stat-combo" style="display: none;">连击: 0</span>
+                <span class="stat-item" id="stat-score" style="display: none;">分数: 0000000</span>
             </div>
         </header>
 
@@ -113,7 +116,7 @@
                 </div>
             </div>
 
-            <div class="results-section">
+            <div class="results-section" id="results-section">
                 <div class="results-header">
                     <span class="results-count" id="results-count">0</span> 首歌曲
                 </div>
@@ -159,13 +162,23 @@
         </footer>
     </div>
 
+    <div class="countdown-overlay" id="countdown-overlay" style="display: none;">
+        <div class="countdown-number" id="countdown-number">3</div>
+    </div>
+
     <div class="container" id="settlement-container" style="display: none;">
         <header class="settlement-header">
             <h1 class="settlement-title">游戏结束</h1>
             <div class="settlement-status" id="settlement-status">练习完成</div>
+            <div class="settlement-mode" id="settlement-mode">竞速模式 IN</div>
         </header>
 
         <main class="settlement-content">
+            <div class="settlement-rating" id="settlement-rating" style="display: none;">
+                <img id="rating-image" src="" alt="评级" class="rating-image">
+                <div class="rating-score" id="rating-score">0000000</div>
+            </div>
+            
             <div class="settlement-stats">
                 <div class="stat-box">
                     <div class="stat-value" id="settlement-correct">0</div>
@@ -174,6 +187,10 @@
                 <div class="stat-box">
                     <div class="stat-value" id="settlement-wrong">0</div>
                     <div class="stat-label">错误次数</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="settlement-maxcombo">0</div>
+                    <div class="stat-label">最大连击</div>
                 </div>
                 <div class="stat-box" id="settlement-time-box" style="display: none;">
                     <div class="stat-value" id="settlement-time">00:00</div>
@@ -188,6 +205,15 @@
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/game-state.js"></script>
+    <script src="js/audio-manager.js"></script>
+    <script src="js/dom.js"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/game-core.js"></script>
+    <script src="js/game-handlers.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
